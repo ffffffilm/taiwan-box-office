@@ -1,0 +1,25 @@
+name: Daily Box Office Update
+
+on:
+  schedule:
+    - cron: '0 16 * * *' # 每天台灣時間凌晨 0 點執行 (UTC 16:00)
+  workflow_dispatch:      # 讓你可以手動按按鈕測試
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Run Update Script
+        run: python update_box_office.py
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/index.json
+          git commit -m "Auto-update data: $(date)" || echo "No changes to commit"
+          git push
