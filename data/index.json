@@ -1,8 +1,7 @@
 {
-    "date": "2026-02-23",
-    "total_movies": "45",
-    "occupancy": "30.5%",
-    "daily_viewers": "45,000",
-    "top_movie": "最新熱門電影",
-    "market_trend": "自動化更新測試：數據已成功同步。"
+    "date": "2026-02-24",
+    "total_movies": "52",
+    "top_movie": "雙囍",
+    "country": "中華民國",
+    "market_trend": "目前熱門：雙囍 (國片)，數據已自動校正。"
 }
