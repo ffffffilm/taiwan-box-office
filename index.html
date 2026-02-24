@@ -7,92 +7,63 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;700;900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,400;1,600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
-:root {
-  --bg:       #0a0908;
-  --bg2:      #111009;
-  --bg3:      #1a1815;
-  --border:   #252220;
-  --border2:  #333028;
-  --text:     #ede8df;
-  --muted:    #6b6458;
-  --dim:      #3d3930;
-  --red:      #c94030;
-  --redglow:  rgba(201,64,48,.15);
-  --amber:    #b88820;
-  --amberglow:rgba(184,136,32,.12);
-  --green:    #3d8a5a;
-  --blue:     #3a6a9a;
-  --serif:   'Cormorant Garamond','Noto Serif TC',serif;
-  --body:    'Noto Serif TC',serif;
-  --mono:    'DM Mono',monospace;
+:root{
+  --bg:#0a0908;--bg2:#111009;--bg3:#1a1815;
+  --border:#252220;--border2:#333028;
+  --text:#ede8df;--muted:#6b6458;--dim:#3d3930;
+  --red:#c94030;--amber:#b88820;--green:#3d8a5a;--blue:#3a6a9a;
+  --serif:'Cormorant Garamond','Noto Serif TC',serif;
+  --body:'Noto Serif TC',serif;--mono:'DM Mono',monospace;
 }
-
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:var(--body);background:var(--bg);color:var(--text);min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 button{font-family:inherit;cursor:pointer;border:none;background:none}
-
-/* ── GRAIN ── */
 body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
   opacity:.025;mix-blend-mode:overlay}
-
-/* ── HEADER ── */
 .hdr{position:sticky;top:0;z-index:100;background:rgba(10,9,8,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
 .hdr-top{display:flex;align-items:center;gap:1.5rem;padding:0 2rem;height:64px}
 .logo{display:flex;align-items:baseline;gap:.5rem;white-space:nowrap}
-.logo-tw{font-family:var(--serif);font-size:1.55rem;font-weight:700;letter-spacing:-.01em;color:var(--text)}
+.logo-tw{font-family:var(--serif);font-size:1.55rem;font-weight:700;letter-spacing:-.01em}
 .logo-sep{color:var(--dim);font-size:1rem}
 .logo-sub{font-family:var(--mono);font-size:.6rem;color:var(--muted);letter-spacing:.12em;text-transform:uppercase}
 .hdr-nav{display:flex;margin-left:1.5rem}
 .hdr-nav a{font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;color:var(--muted);padding:.35rem .9rem;border-left:1px solid var(--border);transition:color .18s}
-.hdr-nav a:hover{color:var(--text)}
-.hdr-nav a.on{color:var(--red)}
-.hdr-date{margin-left:auto;font-family:var(--mono);font-size:.65rem;color:var(--dim);display:flex;flex-direction:column;align-items:flex-end;gap:.1rem}
-.hdr-date strong{color:var(--muted)}
-
-/* ── TICKER ── */
+.hdr-nav a:hover{color:var(--text)}.hdr-nav a.on{color:var(--red)}
+.hdr-right{margin-left:auto;font-family:var(--mono);font-size:.62rem;color:var(--dim);text-align:right;line-height:1.7}
+.hdr-right strong{color:var(--muted)}
 .ticker{height:32px;background:var(--bg2);border-top:1px solid var(--border);overflow:hidden;display:flex;align-items:center}
-.ticker-inner{display:flex;white-space:nowrap;animation:tick 45s linear infinite}
+.ticker-inner{display:flex;white-space:nowrap;animation:tick 50s linear infinite}
 .ticker-inner:hover{animation-play-state:paused}
 .tick-tag{font-family:var(--mono);font-size:.58rem;background:var(--red);color:#fff;padding:.1rem .55rem;letter-spacing:.15em;margin-right:1.2rem;flex-shrink:0}
 .tick-item{font-family:var(--mono);font-size:.67rem;color:var(--muted);padding:0 1.4rem;border-right:1px solid var(--border);display:inline-flex;align-items:center;gap:.45rem}
 .t-name{color:var(--text)}.t-rate{color:var(--amber)}.t-up{color:var(--green)}.t-dn{color:var(--red)}
 @keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-
-/* ── MAIN ── */
 main{max-width:1440px;margin:0 auto;padding:2rem}
-
-/* ── KPI ── */
+.loading{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:60vh;gap:1rem;color:var(--muted)}
+.loading-icon{font-size:2.5rem;color:var(--red);animation:pulse 1.5s ease infinite}
+.loading-txt{font-family:var(--mono);font-size:.78rem;letter-spacing:.1em}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
 .kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--border);border:1px solid var(--border);margin-bottom:2rem}
 .kpi{background:var(--bg2);padding:1.4rem 1.5rem;position:relative;overflow:hidden;transition:background .18s}
 .kpi:hover{background:var(--bg3)}
-.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:transparent;transition:background .3s}
-.kpi:hover::before{background:var(--red)}
-.kpi.hi::before{background:var(--red)}
+.kpi.hi::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--red)}
 .kpi-lbl{font-family:var(--mono);font-size:.58rem;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);margin-bottom:.55rem}
 .kpi-val{font-family:var(--serif);font-size:2.6rem;font-weight:700;line-height:1;letter-spacing:-.02em}
 .kpi-val.red{color:var(--red)}
 .kpi-unit{font-family:var(--mono);font-size:.62rem;color:var(--dim);margin-top:.2rem}
 .kpi-note{font-family:var(--mono);font-size:.62rem;color:var(--muted);margin-top:.25rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.kpi-delta{font-family:var(--mono);font-size:.65rem;margin-top:.3rem}
-.kpi-delta.up{color:var(--green)}.kpi-delta.dn{color:var(--red)}
-
-/* ── GRID ── */
 .grid{display:grid;grid-template-columns:1fr 340px;gap:1.5rem;margin-bottom:1.5rem;align-items:start}
 .col-right{display:flex;flex-direction:column;gap:1.5rem}
-
-/* ── PANEL ── */
 .panel{background:var(--bg2);border:1px solid var(--border)}
 .panel-hdr{display:flex;align-items:baseline;gap:.7rem;padding:.9rem 1.2rem;border-bottom:1px solid var(--border)}
 .panel-title{font-family:var(--serif);font-size:1.05rem;font-weight:600;letter-spacing:.02em}
 .panel-sub{font-family:var(--mono);font-size:.58rem;color:var(--dim);letter-spacing:.1em}
 .panel-badge{margin-left:auto;font-family:var(--mono);font-size:.55rem;background:var(--red);color:#fff;padding:.12rem .45rem;letter-spacing:.15em;animation:blink 2s step-end infinite}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
 .panel-badge.amber{background:var(--amber);animation:none}
-
-/* ── TABLE ── */
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
 .tbl-wrap{overflow-x:auto}
 .tbl{width:100%;border-collapse:collapse;font-size:.84rem}
 .tbl th{font-family:var(--mono);font-size:.57rem;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);padding:.55rem 1rem;text-align:left;border-bottom:1px solid var(--border);white-space:nowrap}
@@ -101,19 +72,12 @@ main{max-width:1440px;margin:0 auto;padding:2rem}
 .tbl tbody tr{transition:background .12s;animation:fadeUp .35s ease both}
 .tbl tbody tr:hover{background:var(--bg3)}
 .tbl tbody tr:last-child td{border-bottom:none}
-
 .td-rk{font-family:var(--mono);font-size:.68rem;color:var(--dim);text-align:center;width:2.2rem}
 .td-rk.g{color:#b88820;font-size:.95rem;font-weight:600}
 .td-rk.s{color:#7a8a9a;font-size:.88rem;font-weight:600}
 .td-rk.b{color:#8a6840;font-size:.82rem;font-weight:600}
 .td-name{min-width:150px}
 .film-n{font-weight:600;display:block;font-size:.88rem}
-.tags{display:flex;gap:.25rem;margin-top:.2rem;flex-wrap:wrap}
-.tag{font-family:var(--mono);font-size:.52rem;padding:.04rem .32rem;border:1px solid var(--border2);color:var(--dim);letter-spacing:.06em}
-.tag.tw{border-color:#6a2018;color:var(--red)}
-.tag.jp{border-color:#1e3a5e;color:var(--blue)}
-.tag.us{border-color:#5a4010;color:var(--amber)}
-.tag.hk{border-color:#1a4a30;color:var(--green)}
 .td-n{font-family:var(--mono);font-size:.75rem;color:var(--muted);text-align:right;white-space:nowrap}
 .rate-cell{min-width:130px}
 .rate-wrap{display:flex;align-items:center;gap:.55rem}
@@ -123,8 +87,6 @@ main{max-width:1440px;margin:0 auto;padding:2rem}
 .rate-pct{font-family:var(--mono);font-size:.78rem;min-width:3.6rem;text-align:right;color:var(--text)}
 .td-delta{font-family:var(--mono);font-size:.68rem;text-align:right;white-space:nowrap}
 .up{color:var(--green)}.dn{color:var(--red)}.nil{color:var(--dim)}
-
-/* ── MINI BARS ── */
 .mini-bars{padding:.8rem 1.2rem 1.2rem;display:flex;flex-direction:column;gap:.7rem}
 .mb-item{display:flex;flex-direction:column;gap:.28rem}
 .mb-hdr{display:flex;justify-content:space-between;align-items:baseline}
@@ -133,62 +95,35 @@ main{max-width:1440px;margin:0 auto;padding:2rem}
 .mb-track{height:2px;background:var(--bg3);overflow:hidden}
 .mb-fill{height:100%;width:0;background:var(--dim);transition:width 1.3s cubic-bezier(.22,1,.36,1)}
 .mb-fill.c1{background:var(--red)}.mb-fill.c2{background:var(--amber)}.mb-fill.c3{background:var(--blue)}
-
-/* ── ORIGIN DONUT ── */
 .donut-wrap{padding:.8rem 1.2rem .4rem;position:relative;height:160px}
 .legend{padding:.2rem 1.2rem 1rem;display:flex;flex-direction:column;gap:.38rem}
 .leg-row{display:flex;align-items:center;gap:.55rem;font-family:var(--mono);font-size:.62rem;color:var(--muted)}
 .leg-dot{width:7px;height:7px;flex-shrink:0}
 .leg-pct{margin-left:auto;color:var(--dim)}
-
-/* ── TREND ── */
 .trend-hdr{flex-wrap:wrap;gap:.5rem}
 .trend-btns{margin-left:auto;display:flex;gap:.35rem;flex-wrap:wrap}
 .tbtn{font-family:var(--mono);font-size:.6rem;padding:.22rem .65rem;border:1px solid var(--border2);color:var(--dim);transition:all .15s;letter-spacing:.06em}
 .tbtn:hover{border-color:var(--muted);color:var(--muted)}
 .tbtn.on{border-color:var(--red);color:var(--red);background:rgba(201,64,48,.1)}
 .chart-wrap{padding:1.2rem;position:relative;height:280px}
-
-/* ── INSIGHT CARDS ── */
-.insights{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border:1px solid var(--border);margin-bottom:1.5rem}
-.insight{background:var(--bg2);padding:1.4rem;position:relative;overflow:hidden;transition:background .18s}
-.insight:hover{background:var(--bg3)}
-.insight-icon{font-size:1.4rem;margin-bottom:.6rem}
-.insight-title{font-family:var(--serif);font-size:1rem;font-weight:600;margin-bottom:.4rem}
-.insight-body{font-family:var(--mono);font-size:.67rem;color:var(--muted);line-height:1.8}
-.insight-val{font-family:var(--serif);font-size:1.6rem;font-weight:700;color:var(--amber);margin-top:.4rem}
-
-/* ── ALERT ── */
-.alert{display:flex;align-items:center;gap:.9rem;background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--amber);padding:.65rem 1rem;margin-bottom:1.5rem;font-family:var(--mono);font-size:.7rem;color:var(--muted)}
-.alert-tag{background:var(--amber);color:var(--bg);padding:.12rem .45rem;font-size:.58rem;letter-spacing:.1em;flex-shrink:0}
-
-/* ── DATA CREDIT ── */
 .credit{font-family:var(--mono);font-size:.6rem;color:var(--dim);text-align:center;padding:1.4rem 0;border-top:1px solid var(--border);margin-top:1.5rem;line-height:2.2}
 .credit a{color:var(--muted);border-bottom:1px solid var(--border2)}.credit a:hover{color:var(--text)}
-
-/* ── FOOTER ── */
 footer{border-top:1px solid var(--border);padding:.9rem 2rem;background:var(--bg2)}
 .footer-inner{font-family:var(--mono);font-size:.62rem;color:var(--dim);display:flex;align-items:center;gap:.7rem;max-width:1440px;margin:0 auto}
 .footer-brand{color:var(--muted)}
-
 @keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
-
-/* ── RESPONSIVE ── */
 @media(max-width:1100px){.grid{grid-template-columns:1fr}.col-right{display:grid;grid-template-columns:1fr 1fr}}
 @media(max-width:720px){
   main{padding:1rem}.hdr-top{padding:0 1rem}
   .kpi-row{grid-template-columns:1fr 1fr}
   .kpi-row .kpi:first-child{grid-column:1/-1}
-  .hdr-nav,.hdr-date{display:none}
-  .insights{grid-template-columns:1fr}
+  .hdr-nav,.hdr-right{display:none}
   .col-right{grid-template-columns:1fr}
   .hide-m{display:none}
 }
 </style>
 </head>
 <body>
-
-<!-- HEADER -->
 <header class="hdr">
   <div class="hdr-top">
     <div class="logo">
@@ -202,354 +137,293 @@ footer{border-top:1px solid var(--border);padding:.9rem 2rem;background:var(--bg
       <a href="#">趨勢分析</a>
       <a href="#">市場報告</a>
     </nav>
-    <div class="hdr-date">
-      <strong>2026 · 02 · 22（週日）</strong>
-      <span>資料來源：MovieArena · TFAI</span>
+    <div class="hdr-right">
+      <strong id="hdrDate">—</strong><br>
+      資料來源：MovieArena · TFAI
     </div>
   </div>
-  <div class="ticker">
-    <div class="ticker-inner" id="ticker"></div>
-  </div>
+  <div class="ticker"><div class="ticker-inner" id="ticker">
+    <span class="tick-tag">即時</span>
+    <span style="font-family:var(--mono);font-size:.67rem;color:var(--dim);padding:0 1rem">資料載入中…</span>
+  </div></div>
 </header>
 
 <main>
-
-  <!-- ALERT -->
-  <div class="alert">
-    <span class="alert-tag">市場觀察</span>
-    春節後首個週日，大盤進入平日模式，整體上座率較年節高峰衰退約 60–70%，屬正常季節性回落。新片《雙囍》開映初期表現值得持續追蹤。
+  <div class="loading" id="loading">
+    <div class="loading-icon">▶</div>
+    <div class="loading-txt">正在讀取票房資料…</div>
   </div>
-
-  <!-- KPI -->
-  <div class="kpi-row">
-    <div class="kpi">
-      <div class="kpi-lbl">資料日期</div>
-      <div class="kpi-val" style="font-size:1.3rem;margin-top:.3rem">2026<br>02 · 22</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-lbl">映演中影片</div>
-      <div class="kpi-val">43</div>
-      <div class="kpi-unit">部（含重映）</div>
-      <div class="kpi-delta up">▲ 較上週 +5</div>
-    </div>
-    <div class="kpi hi">
-      <div class="kpi-lbl">今日最高上座率</div>
-      <div class="kpi-val red">28.18</div>
-      <div class="kpi-unit">%</div>
-      <div class="kpi-note">陽光女子合唱團</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-lbl">市場總入座（估）</div>
-      <div class="kpi-val">42,085</div>
-      <div class="kpi-unit">人次</div>
-      <div class="kpi-delta dn">▼ 較昨日 -12.4%</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-lbl">加權平均上座率</div>
-      <div class="kpi-val">15.2</div>
-      <div class="kpi-unit">%</div>
-      <div class="kpi-delta dn">▼ 較年節高峰 -61%</div>
-    </div>
-  </div>
-
-  <!-- INSIGHT CARDS -->
-  <div class="insights">
-    <div class="insight">
-      <div class="insight-icon">🎬</div>
-      <div class="insight-title">市場龍頭</div>
-      <div class="insight-body">《陽光女子合唱團》上映第三週，台片罕見連霸表現。上座率 28.18%，衰退幅度尚在合理範圍。</div>
-      <div class="insight-val">#1 台片</div>
-    </div>
-    <div class="insight">
-      <div class="insight-icon">🔥</div>
-      <div class="insight-title">黑馬觀察</div>
-      <div class="insight-body">《進擊的巨人完結篇》少場限定，上座率高達 35.22%，每場幾近滿座。動漫受眾忠誠度極高。</div>
-      <div class="insight-val">35.22%</div>
-    </div>
-    <div class="insight">
-      <div class="insight-icon">📊</div>
-      <div class="insight-title">新片動態</div>
-      <div class="insight-body">港片《雙囍》2/15 上映，首週末即拿下 24.27% 上座率，春節喜慶題材仍有後勁，後續週末值得關注。</div>
-      <div class="insight-val">24.27%</div>
-    </div>
-  </div>
-
-  <!-- MAIN GRID -->
-  <div class="grid">
-
-    <!-- 排行榜 -->
-    <div class="panel">
-      <div class="panel-hdr">
-        <h2 class="panel-title">今日上座率排行</h2>
-        <span class="panel-sub">2026-02-22・43 部</span>
-        <span class="panel-badge">LIVE</span>
+  <div id="app" style="display:none">
+    <div class="kpi-row">
+      <div class="kpi">
+        <div class="kpi-lbl">資料日期</div>
+        <div class="kpi-val" id="kpiDate" style="font-size:1.3rem;margin-top:.3rem">—</div>
       </div>
-      <div class="tbl-wrap">
-        <table class="tbl">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>電影</th>
+      <div class="kpi">
+        <div class="kpi-lbl">映演中影片</div>
+        <div class="kpi-val" id="kpiFilms">—</div>
+        <div class="kpi-unit">部</div>
+      </div>
+      <div class="kpi hi">
+        <div class="kpi-lbl">今日最高上座率</div>
+        <div class="kpi-val red" id="kpiTopRate">—</div>
+        <div class="kpi-unit">%</div>
+        <div class="kpi-note" id="kpiTopFilm">—</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-lbl">市場總入座（估）</div>
+        <div class="kpi-val" id="kpiTotal">—</div>
+        <div class="kpi-unit">人次</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-lbl">加權平均上座率</div>
+        <div class="kpi-val" id="kpiAvg">—</div>
+        <div class="kpi-unit">%</div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="panel">
+        <div class="panel-hdr">
+          <h2 class="panel-title">今日上座率排行</h2>
+          <span class="panel-sub" id="rankSub">—</span>
+          <span class="panel-badge">LIVE</span>
+        </div>
+        <div class="tbl-wrap">
+          <table class="tbl">
+            <thead><tr>
+              <th>#</th><th>電影</th>
               <th class="r hide-m">排片座位</th>
               <th class="r hide-m">入座數</th>
               <th>上座率</th>
               <th class="r hide-m">較昨日</th>
               <th class="r hide-m">較上週</th>
-            </tr>
-          </thead>
-          <tbody id="rankTbody"></tbody>
-        </table>
-      </div>
-    </div>
-
-    <!-- 右欄 -->
-    <div class="col-right">
-
-      <!-- 排片座位 mini bars -->
-      <div class="panel">
-        <div class="panel-hdr">
-          <h2 class="panel-title">排片份額 Top 10</h2>
-          <span class="panel-sub">以座位數計</span>
+            </tr></thead>
+            <tbody id="rankTbody"></tbody>
+          </table>
         </div>
-        <div class="mini-bars" id="miniBars"></div>
       </div>
-
-      <!-- 片源分析 -->
-      <div class="panel">
-        <div class="panel-hdr">
-          <h2 class="panel-title">片源分析</h2>
-          <span class="panel-badge amber">今日</span>
+      <div class="col-right">
+        <div class="panel">
+          <div class="panel-hdr">
+            <h2 class="panel-title">排片份額 Top 10</h2>
+            <span class="panel-sub">以座位數計</span>
+          </div>
+          <div class="mini-bars" id="miniBars"></div>
         </div>
-        <div class="donut-wrap"><canvas id="donutChart"></canvas></div>
-        <div class="legend" id="donutLegend"></div>
+        <div class="panel">
+          <div class="panel-hdr">
+            <h2 class="panel-title">上座率分布</h2>
+            <span class="panel-badge amber">今日</span>
+          </div>
+          <div class="donut-wrap"><canvas id="donutChart"></canvas></div>
+          <div class="legend" id="donutLegend"></div>
+        </div>
       </div>
-
+    </div>
+    <div class="panel" style="margin-bottom:1.5rem">
+      <div class="panel-hdr trend-hdr">
+        <h2 class="panel-title">上座率趨勢</h2>
+        <span class="panel-sub" id="trendSub">近期走勢</span>
+        <div class="trend-btns" id="trendBtns"></div>
+      </div>
+      <div class="chart-wrap"><canvas id="trendChart"></canvas></div>
+    </div>
+    <div class="credit">
+      資料來源：<a href="https://moviearenatw.com" target="_blank">MovieArena</a>
+      &nbsp;·&nbsp;<a href="https://boxofficetw.tfai.org.tw" target="_blank">TFAI 全國電影票房</a>
+      &nbsp;·&nbsp;<a href="https://www.facebook.com/taipeibo" target="_blank">台北票房觀測站</a>
+      &nbsp;·&nbsp;本站資料為自動彙整，數字為估算值，非官方統計
+      &nbsp;·&nbsp;每小時自動更新
     </div>
   </div>
-
-  <!-- 趨勢圖 -->
-  <div class="panel" style="margin-bottom:1.5rem">
-    <div class="panel-hdr trend-hdr">
-      <h2 class="panel-title">上座率趨勢</h2>
-      <span class="panel-sub">近 21 天・點選切換影片</span>
-      <div class="trend-btns" id="trendBtns"></div>
-    </div>
-    <div class="chart-wrap"><canvas id="trendChart"></canvas></div>
-  </div>
-
-  <!-- 數據來源 -->
-  <div class="credit">
-    資料來源：<a href="https://moviearenatw.com" target="_blank">MovieArena</a>
-    ·&nbsp;<a href="https://boxofficetw.tfai.org.tw" target="_blank">TFAI 全國電影票房</a>
-    ·&nbsp;<a href="https://www.facebook.com/taipeibo" target="_blank">台北票房觀測站</a>
-    ·&nbsp;本站資料為自動彙整，數字為估算值，非官方統計
-    ·&nbsp;每日凌晨 02:00 更新
-  </div>
-
 </main>
 
 <footer>
   <div class="footer-inner">
     <span class="footer-brand">映象台灣</span>
-    <span>·</span>
-    <span>台灣電影市場情報站</span>
-    <span>·</span>
-    <span>資料日期：2026-02-22</span>
+    <span>·</span><span>台灣電影市場情報站</span>
+    <span>·</span><span id="footerUpdated">—</span>
+    <span>·</span><span id="nextRefresh">—</span>
   </div>
 </footer>
 
 <script>
-// ════════════════════════════════════════
-// 真實資料（來自 MovieArena 2026-02-22）
-// ════════════════════════════════════════
-const FILMS = [
-  {rank:1, title:"陽光女子合唱團",  origin:"TW", seats:61764, att:17408, rate:28.18, d1:74.14,  d7:85.92},
-  {rank:2, title:"雙囍",            origin:"HK", seats:29521, att:7164,  rate:24.27, d1:null,   d7:null},
-  {rank:3, title:"動物方城市2",     origin:"US", seats:7368,  att:1657,  rate:22.49, d1:76.61,  d7:88.89},
-  {rank:4, title:"山羊巔峰",        origin:"US", seats:10043, att:2195,  rate:21.86, d1:75.20,  d7:100.23},
-  {rank:5, title:"天眼浩劫",        origin:"US", seats:7598,  att:1489,  rate:19.60, d1:65.19,  d7:89.16},
-  {rank:6, title:"我內心的糟糕念頭",origin:"JP", seats:7538,  att:1458,  rate:19.34, d1:88.90,  d7:36.73},
-  {rank:7, title:"巧虎電影 勇氣之歌",origin:"JP",seats:5831,  att:1101,  rate:18.88, d1:106.07, d7:79.38},
-  {rank:8, title:"日租家庭",        origin:"TW", seats:4320,  att:663,   rate:15.35, d1:82.67,  d7:82.36},
-  {rank:9, title:"秒速5公分真人版", origin:"JP", seats:2789,  att:444,   rate:15.92, d1:104.47, d7:65.49},
-  {rank:10,title:"阿凡達：火與燼",  origin:"US", seats:6013,  att:992,   rate:16.50, d1:63.22,  d7:85.59},
-  {rank:11,title:"咆哮山莊",        origin:"US", seats:7524,  att:897,   rate:11.92, d1:84.07,  d7:76.86},
-  {rank:12,title:"關鍵公敵",        origin:"US", seats:7023,  att:805,   rate:11.46, d1:73.92,  d7:83.68},
-  {rank:13,title:"冠軍之路",        origin:"US", seats:3209,  att:492,   rate:15.33, d1:83.11,  d7:67.58},
-  {rank:14,title:"大濛",            origin:"TW", seats:2116,  att:413,   rate:19.52, d1:72.84,  d7:62.67},
-  {rank:15,title:"泰殺歌后戰",      origin:"US", seats:4349,  att:355,   rate:8.16,  d1:79.60,  d7:62.50},
-  {rank:16,title:"進擊的巨人完結篇",origin:"JP", seats:812,   att:286,   rate:35.22, d1:123.28, d7:83.14},
-  {rank:17,title:"魔法公主 4K",     origin:"JP", seats:3090,  att:242,   rate:7.83,  d1:109.01, d7:33.52},
-  {rank:18,title:"匿殺",            origin:"TW", seats:2115,  att:200,   rate:9.46,  d1:83.33,  d7:129.87},
-  {rank:19,title:"少女與戰車",      origin:"JP", seats:2714,  att:189,   rate:6.96,  d1:88.32,  d7:54.94},
-  {rank:20,title:"空之境界 第五章", origin:"JP", seats:2954,  att:374,   rate:12.66, d1:109.36, d7:57.36},
-];
-
-// 趨勢資料（模擬近 21 天，以排行第一的《陽光女子合唱團》為主）
-const TREND_DATA = {
-  "陽光女子合唱團": [82,87,91,85,79,72,68,62,58,54,50,47,44,48,53,57,45,40,36,32,28],
-  "雙囍":           [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,38,24],
-  "進擊的巨人完結篇":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,45,52,42,38,35],
-  "動物方城市2":     [null,null,null,null,null,null,null,null,null,null,32,36,30,28,26,24,31,27,24,26,22],
-  "阿凡達：火與燼": [55,58,62,54,48,44,40,36,32,30,28,26,24,22,20,28,24,22,20,22,17],
-};
-
-const DAYS = Array.from({length:21},(_,i)=>{
-  const d = new Date('2026-02-22');
-  d.setDate(d.getDate()-20+i);
-  return `${d.getMonth()+1}/${d.getDate()}`;
-});
-
-const COLORS = {TW:'#c94030',JP:'#3a6a9a',US:'#b88820',HK:'#3d8a5a',KR:'#8a5aaa'};
-const LABELS = {TW:'台灣',JP:'日本',US:'歐美',HK:'港澳',KR:'韓國'};
-
-// ── TICKER ──────────────────────────────
-function buildTicker(){
-  const top = FILMS.slice(0,12);
-  const mkItem = f => {
-    const pct = f.d1 != null ? (f.d1/100-1)*100 : null;
-    const dHtml = pct==null ? '' :
-      pct>=0 ? `<span class="t-up">▲${Math.abs(pct).toFixed(0)}%</span>`
-              : `<span class="t-dn">▼${Math.abs(pct).toFixed(0)}%</span>`;
-    return `<span class="tick-item"><span class="t-name">${f.title}</span><span class="t-rate">${f.rate}%</span>${dHtml}</span>`;
-  };
-  const items = top.map(mkItem).join('');
-  document.getElementById('ticker').innerHTML =
-    '<span class="tick-tag">即時</span>' + items + items;
-}
-
-// ── RANKING TABLE ────────────────────────
-function buildTable(){
-  const tbody = document.getElementById('rankTbody');
-  const maxR = Math.max(...FILMS.map(f=>f.rate));
-  tbody.innerHTML = FILMS.map((f,i)=>{
-    const rk = i<1?'g':i<2?'s':i<3?'b':'';
-    const tagCls = (COLORS[f.origin]?f.origin.toLowerCase():'');
-    const fill = f.rate>=20?'fill-h':f.rate>=12?'fill-m':'fill-l';
-    const bw = (f.rate/maxR*100).toFixed(1);
-    const d1h = fmtDelta(f.d1), d7h = fmtDelta(f.d7);
-    return `<tr style="animation-delay:${i*.025}s">
-      <td class="td-rk ${rk}">${String(f.rank).padStart(2,'0')}</td>
-      <td class="td-name">
-        <span class="film-n">${f.title}</span>
-        <div class="tags"><span class="tag ${tagCls}">${LABELS[f.origin]||f.origin}</span></div>
-      </td>
-      <td class="td-n hide-m">${fmt(f.seats)}</td>
-      <td class="td-n hide-m">${fmt(f.att)}</td>
-      <td class="rate-cell">
-        <div class="rate-wrap">
-          <div class="rate-bar"><div class="rate-fill ${fill}" data-w="${bw}"></div></div>
-          <span class="rate-pct">${f.rate.toFixed(2)}%</span>
-        </div>
-      </td>
-      <td class="td-delta hide-m">${d1h}</td>
-      <td class="td-delta hide-m">${d7h}</td>
-    </tr>`;
-  }).join('');
-  // animate bars
-  requestAnimationFrame(()=>requestAnimationFrame(()=>{
-    document.querySelectorAll('.rate-fill').forEach(el=>el.style.width=el.dataset.w+'%');
-  }));
-}
-
+function fmt(n){ return n==null?'—':Number(n).toLocaleString('zh-TW'); }
+function fmtR(n){ return n==null?'—':Number(n).toFixed(2); }
 function fmtDelta(v){
   if(v==null) return '<span class="nil">—</span>';
-  const p = (v/100-1)*100;
-  if(p>0)  return `<span class="up">▲ ${Math.abs(p).toFixed(1)}%</span>`;
-  if(p<0)  return `<span class="dn">▼ ${Math.abs(p).toFixed(1)}%</span>`;
+  const p=(v/100-1)*100;
+  if(p>0.5)  return `<span class="up">▲ ${Math.abs(p).toFixed(1)}%</span>`;
+  if(p<-0.5) return `<span class="dn">▼ ${Math.abs(p).toFixed(1)}%</span>`;
   return '<span class="nil">±0%</span>';
 }
 
-function fmt(n){ return n==null?'—':Number(n).toLocaleString('zh-TW'); }
+async function fetchJSON(url){
+  const r=await fetch(url+'?t='+Date.now());
+  if(!r.ok) throw new Error(r.status);
+  return r.json();
+}
 
-// ── MINI BARS ────────────────────────────
-function buildMiniBars(){
-  const top10 = [...FILMS].sort((a,b)=>b.seats-a.seats).slice(0,10);
-  const max = top10[0].seats;
-  document.getElementById('miniBars').innerHTML = top10.map((f,i)=>`
+async function loadData(){
+  const idx=await fetchJSON('data/index.json');
+  const latest=idx.daily?.latest;
+  if(!latest) throw new Error('無資料');
+  const daily=await fetchJSON(`data/daily/${latest}.json`);
+  const files=(idx.daily?.files||[]).slice(0,14);
+  const recent=[];
+  for(const f of files){
+    try{ recent.push(await fetchJSON(`data/daily/${f}.json`)); }catch(_){}
+  }
+  recent.reverse();
+  return {daily,recent,idx};
+}
+
+let tChart=null;
+
+function render({daily,recent,idx}){
+  const films=daily.films||[];
+  const s=daily.summary||{};
+  const dateStr=daily.date||'—';
+  const wd=['日','一','二','三','四','五','六'][new Date(dateStr).getDay()];
+
+  document.getElementById('hdrDate').textContent=`${dateStr}（週${wd}）`;
+  document.getElementById('footerUpdated').textContent=`最後更新：${(idx.updated_at||'').slice(0,16).replace('T',' ')}`;
+  document.getElementById('kpiDate').innerHTML=dateStr.slice(0,7)+'<br>'+dateStr.slice(5).replace('-',' · ');
+  document.getElementById('kpiFilms').textContent=fmt(s.total_films||films.length);
+  document.getElementById('kpiTopRate').textContent=fmtR(s.top_rate);
+  document.getElementById('kpiTopFilm').textContent=s.top_film||'—';
+  document.getElementById('kpiTotal').textContent=fmt(s.total_attendance);
+  document.getElementById('kpiAvg').textContent=fmtR(s.avg_rate);
+  document.getElementById('rankSub').textContent=`${dateStr}・${films.length} 部`;
+
+  // Ticker
+  const top12=films.slice(0,12);
+  const mkT=f=>{
+    const p=f.d_minus_1!=null?(f.d_minus_1/100-1)*100:null;
+    const dh=p==null?'':p>=0?`<span class="t-up">▲${Math.abs(p).toFixed(0)}%</span>`:`<span class="t-dn">▼${Math.abs(p).toFixed(0)}%</span>`;
+    return `<span class="tick-item"><span class="t-name">${f.title}</span><span class="t-rate">${fmtR(f.rate)}%</span>${dh}</span>`;
+  };
+  const items=top12.map(mkT).join('');
+  document.getElementById('ticker').innerHTML='<span class="tick-tag">即時</span>'+items+items;
+
+  // Table
+  const maxR=Math.max(...films.map(f=>f.rate||0));
+  document.getElementById('rankTbody').innerHTML=films.map((f,i)=>{
+    const rk=i===0?'g':i===1?'s':i===2?'b':'';
+    const fill=f.rate>=20?'fill-h':f.rate>=12?'fill-m':'fill-l';
+    const bw=maxR>0?((f.rate||0)/maxR*100).toFixed(1):0;
+    return `<tr style="animation-delay:${i*.025}s">
+      <td class="td-rk ${rk}">${String(i+1).padStart(2,'0')}</td>
+      <td class="td-name"><span class="film-n">${f.title}</span></td>
+      <td class="td-n hide-m">${fmt(f.seats)}</td>
+      <td class="td-n hide-m">${fmt(f.attendance)}</td>
+      <td class="rate-cell"><div class="rate-wrap">
+        <div class="rate-bar"><div class="rate-fill ${fill}" data-w="${bw}"></div></div>
+        <span class="rate-pct">${fmtR(f.rate)}%</span>
+      </div></td>
+      <td class="td-delta hide-m">${fmtDelta(f.d_minus_1)}</td>
+      <td class="td-delta hide-m">${fmtDelta(f.d_minus_7)}</td>
+    </tr>`;
+  }).join('');
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+    document.querySelectorAll('.rate-fill').forEach(el=>el.style.width=el.dataset.w+'%');
+  }));
+
+  // Mini bars
+  const top10=[...films].sort((a,b)=>b.seats-a.seats).slice(0,10);
+  const maxS=top10[0]?.seats||1;
+  document.getElementById('miniBars').innerHTML=top10.map((f,i)=>`
     <div class="mb-item">
-      <div class="mb-hdr">
-        <span class="mb-name">${f.title}</span>
-        <span class="mb-val">${fmt(f.seats)}</span>
-      </div>
-      <div class="mb-track"><div class="mb-fill ${i===0?'c1':i===1?'c2':i===2?'c3':''}" data-w="${(f.seats/max*100).toFixed(1)}"></div></div>
+      <div class="mb-hdr"><span class="mb-name">${f.title}</span><span class="mb-val">${fmt(f.seats)}</span></div>
+      <div class="mb-track"><div class="mb-fill ${i===0?'c1':i===1?'c2':i===2?'c3':''}" data-w="${(f.seats/maxS*100).toFixed(1)}"></div></div>
     </div>`).join('');
   requestAnimationFrame(()=>requestAnimationFrame(()=>{
     document.querySelectorAll('.mb-fill').forEach(el=>el.style.width=el.dataset.w+'%');
   }));
-}
 
-// ── ORIGIN DONUT ─────────────────────────
-function buildDonut(){
-  const counts={};
-  FILMS.forEach(f=>counts[f.origin]=(counts[f.origin]||0)+1);
-  const keys = Object.keys(counts).sort((a,b)=>counts[b]-counts[a]);
-  const data  = keys.map(k=>counts[k]);
-  const clrs  = keys.map(k=>COLORS[k]||'#4a4540');
-  const total = data.reduce((a,b)=>a+b,0);
-  new Chart(document.getElementById('donutChart'),{
+  // Donut — 上座率高中低分布
+  const high=films.filter(f=>f.rate>=20).length;
+  const mid=films.filter(f=>f.rate>=10&&f.rate<20).length;
+  const low=films.filter(f=>f.rate<10).length;
+  const dc=document.getElementById('donutChart');
+  if(dc._chart) dc._chart.destroy();
+  dc._chart=new Chart(dc,{
     type:'doughnut',
-    data:{labels:keys,datasets:[{data,backgroundColor:clrs,borderColor:'#111009',borderWidth:3}]},
+    data:{labels:['高（≥20%）','中（10–20%）','低（<10%）'],
+      datasets:[{data:[high,mid,low],backgroundColor:['#c94030','#b88820','#3d3930'],borderColor:'#111009',borderWidth:3}]},
     options:{responsive:true,maintainAspectRatio:false,cutout:'62%',
-      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>` ${LABELS[c.label]||c.label}：${c.raw} 部 (${((c.raw/total)*100).toFixed(0)}%)`}}}}
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>` ${c.label}：${c.raw} 部`}}}}
   });
-  document.getElementById('donutLegend').innerHTML = keys.map((k,i)=>
-    `<div class="leg-row"><div class="leg-dot" style="background:${clrs[i]}"></div><span>${LABELS[k]||k}</span><span class="leg-pct">${data[i]} 部・${((data[i]/total)*100).toFixed(0)}%</span></div>`
-  ).join('');
+  document.getElementById('donutLegend').innerHTML=[
+    {l:'高上座（≥20%）',v:high,c:'#c94030'},
+    {l:'中上座（10–20%）',v:mid,c:'#b88820'},
+    {l:'低上座（<10%）',v:low,c:'#3d3930'},
+  ].map(x=>`<div class="leg-row"><div class="leg-dot" style="background:${x.c}"></div><span>${x.l}</span><span class="leg-pct">${x.v} 部</span></div>`).join('');
+
+  // Trend
+  if(recent.length>1){
+    const top5=films.slice(0,5).map(f=>f.title);
+    document.getElementById('trendSub').textContent=`近 ${recent.length} 天走勢`;
+    const wrap=document.getElementById('trendBtns');
+    wrap.innerHTML=top5.map((t,i)=>`<button class="tbtn${i===0?' on':''}" data-t="${t}">${t}</button>`).join('');
+    wrap.querySelectorAll('.tbtn').forEach(b=>b.addEventListener('click',()=>{
+      wrap.querySelectorAll('.tbtn').forEach(x=>x.classList.remove('on'));
+      b.classList.add('on'); drawTrend(recent,b.dataset.t);
+    }));
+    drawTrend(recent,top5[0]);
+  }
 }
 
-// ── TREND CHART ──────────────────────────
-let tChart = null;
-const tFilms = Object.keys(TREND_DATA);
-
-function buildTrendBtns(){
-  const wrap = document.getElementById('trendBtns');
-  wrap.innerHTML = tFilms.map((t,i)=>`<button class="tbtn${i===0?' on':''}" data-t="${t}">${t}</button>`).join('');
-  wrap.querySelectorAll('.tbtn').forEach(b=>b.addEventListener('click',()=>{
-    wrap.querySelectorAll('.tbtn').forEach(x=>x.classList.remove('on'));
-    b.classList.add('on');
-    drawTrend(b.dataset.t);
-  }));
-  drawTrend(tFilms[0]);
-}
-
-function drawTrend(title){
-  const vals = TREND_DATA[title];
-  const ctx = document.getElementById('trendChart').getContext('2d');
+function drawTrend(recent,title){
+  const labels=recent.map(d=>d.date?.slice(5)||'');
+  const vals=recent.map(d=>(d.films||[]).find(f=>f.title===title)?.rate??null);
+  const ctx=document.getElementById('trendChart').getContext('2d');
   if(tChart) tChart.destroy();
-  tChart = new Chart(ctx,{
-    type:'line',
-    data:{labels:DAYS,datasets:[{
-      label:title,data:vals,
+  tChart=new Chart(ctx,{type:'line',
+    data:{labels,datasets:[{label:title,data:vals,
       borderColor:'#c94030',backgroundColor:'rgba(201,64,48,.07)',
       borderWidth:1.8,pointRadius:3,pointBackgroundColor:'#c94030',
-      pointBorderColor:'#0a0908',pointBorderWidth:2,
-      fill:true,tension:.32,spanGaps:true
-    }]},
-    options:{
-      responsive:true,maintainAspectRatio:false,
+      pointBorderColor:'#0a0908',pointBorderWidth:2,fill:true,tension:.32,spanGaps:true}]},
+    options:{responsive:true,maintainAspectRatio:false,
       interaction:{mode:'index',intersect:false},
-      plugins:{
-        legend:{display:false},
+      plugins:{legend:{display:false},
         tooltip:{backgroundColor:'#1a1815',borderColor:'#252220',borderWidth:1,
           titleColor:'#ede8df',bodyColor:'#6b6458',
-          callbacks:{label:c=>` 上座率：${c.raw!=null?c.raw.toFixed(1)+'%':'無資料'}`}}
-      },
+          callbacks:{label:c=>` 上座率：${c.raw!=null?c.raw.toFixed(1)+'%':'無資料'}`}}},
       scales:{
         x:{grid:{color:'#151310'},ticks:{color:'#4a4540',font:{family:"'DM Mono'",size:10}}},
-        y:{min:0,max:100,grid:{color:'#151310'},
-          ticks:{color:'#4a4540',font:{family:"'DM Mono'",size:10},callback:v=>v+'%'}}
-      }
-    }
+        y:{min:0,max:100,grid:{color:'#151310'},ticks:{color:'#4a4540',font:{family:"'DM Mono'",size:10},callback:v=>v+'%'}}
+      }}
   });
 }
 
-// ── INIT ─────────────────────────────────
-buildTicker();
-buildTable();
-buildMiniBars();
-buildDonut();
-buildTrendBtns();
+function startCountdown(){
+  const el=document.getElementById('nextRefresh');
+  let sec=3600;
+  setInterval(()=>{
+    sec--;
+    if(sec<=0){sec=3600;init();}
+    const m=Math.floor(sec/60),s=sec%60;
+    el.textContent=`${m} 分 ${String(s).padStart(2,'0')} 秒後刷新`;
+  },1000);
+}
+
+async function init(){
+  try{
+    const data=await loadData();
+    document.getElementById('loading').style.display='none';
+    document.getElementById('app').style.display='block';
+    render(data);
+  }catch(e){
+    document.getElementById('loading').innerHTML=`
+      <div class="loading-icon" style="animation:none;color:var(--red)">！</div>
+      <div class="loading-txt" style="color:var(--red)">無法讀取資料</div>
+      <div style="font-family:var(--mono);font-size:.65rem;color:var(--dim);margin-top:.5rem">請確認爬蟲已執行：python scraper.py</div>`;
+  }
+}
+
+init();
+startCountdown();
 </script>
 </body>
 </html>
