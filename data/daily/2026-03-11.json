@@ -1,0 +1,437 @@
+{
+  "date": "2026-03-11",
+  "source": "MovieArena",
+  "films": [
+    {
+      "rank": 1,
+      "title": "狸想世界",
+      "seats": 7811,
+      "attendance": 1439,
+      "rate": 18.42,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 2,
+      "title": "雙囍",
+      "seats": 6270,
+      "attendance": 588,
+      "rate": 9.38,
+      "d_minus_1": 28.75,
+      "d_minus_7": 22.16
+    },
+    {
+      "rank": 3,
+      "title": "陽光女子合唱團",
+      "seats": 2846,
+      "attendance": 236,
+      "rate": 8.29,
+      "d_minus_1": 6.1,
+      "d_minus_7": 5.06
+    },
+    {
+      "rank": 4,
+      "title": "犯罪101",
+      "seats": 3422,
+      "attendance": 181,
+      "rate": 5.29,
+      "d_minus_1": 34.22,
+      "d_minus_7": 23.03
+    },
+    {
+      "rank": 5,
+      "title": "全境屍控",
+      "seats": 2062,
+      "attendance": 151,
+      "rate": 7.32,
+      "d_minus_1": 40.59,
+      "d_minus_7": null
+    },
+    {
+      "rank": 6,
+      "title": "穿越地獄之門",
+      "seats": 1495,
+      "attendance": 130,
+      "rate": 8.7,
+      "d_minus_1": 35.33,
+      "d_minus_7": 56.52
+    },
+    {
+      "rank": 7,
+      "title": "科學新娘！",
+      "seats": 4367,
+      "attendance": 120,
+      "rate": 2.75,
+      "d_minus_1": 21.51,
+      "d_minus_7": 14.08
+    },
+    {
+      "rank": 8,
+      "title": "ENHYPEN [WALK THE LINE SUMMER EDITION]",
+      "seats": 211,
+      "attendance": 75,
+      "rate": 35.55,
+      "d_minus_1": 50.68,
+      "d_minus_7": null
+    },
+    {
+      "rank": 9,
+      "title": "山羊巔峰",
+      "seats": 1749,
+      "attendance": 69,
+      "rate": 3.95,
+      "d_minus_1": 29.11,
+      "d_minus_7": 21.04
+    },
+    {
+      "rank": 10,
+      "title": "功夫",
+      "seats": 907,
+      "attendance": 64,
+      "rate": 7.06,
+      "d_minus_1": 17.98,
+      "d_minus_7": 12.38
+    },
+    {
+      "rank": 11,
+      "title": "驚聲尖叫 7",
+      "seats": 1250,
+      "attendance": 58,
+      "rate": 4.64,
+      "d_minus_1": 15.68,
+      "d_minus_7": 8.49
+    },
+    {
+      "rank": 12,
+      "title": "機動戰士鋼彈 閃光的哈薩威",
+      "seats": 774,
+      "attendance": 51,
+      "rate": 6.59,
+      "d_minus_1": 7.87,
+      "d_minus_7": null
+    },
+    {
+      "rank": 13,
+      "title": "動物方城市2",
+      "seats": 984,
+      "attendance": 50,
+      "rate": 5.08,
+      "d_minus_1": 26.04,
+      "d_minus_7": 25.77
+    },
+    {
+      "rank": 14,
+      "title": "祈念之樹",
+      "seats": 933,
+      "attendance": 48,
+      "rate": 5.14,
+      "d_minus_1": 24.12,
+      "d_minus_7": 19.35
+    },
+    {
+      "rank": 15,
+      "title": "阿凡達：火與燼",
+      "seats": 636,
+      "attendance": 40,
+      "rate": 6.29,
+      "d_minus_1": 18.78,
+      "d_minus_7": 21.39
+    },
+    {
+      "rank": 16,
+      "title": "跳躍吧！時空少女 全新4K修復版",
+      "seats": 459,
+      "attendance": 37,
+      "rate": 8.06,
+      "d_minus_1": 37.0,
+      "d_minus_7": 23.27
+    },
+    {
+      "rank": 17,
+      "title": "大濛",
+      "seats": 507,
+      "attendance": 37,
+      "rate": 7.3,
+      "d_minus_1": 27.82,
+      "d_minus_7": 21.64
+    },
+    {
+      "rank": 18,
+      "title": "巧虎電影　勇氣之歌",
+      "seats": 987,
+      "attendance": 34,
+      "rate": 3.44,
+      "d_minus_1": 28.81,
+      "d_minus_7": 28.1
+    },
+    {
+      "rank": 19,
+      "title": "鐵肺",
+      "seats": 604,
+      "attendance": 33,
+      "rate": 5.46,
+      "d_minus_1": 41.77,
+      "d_minus_7": 25.38
+    },
+    {
+      "rank": 20,
+      "title": "忌念日：極權元年",
+      "seats": 593,
+      "attendance": 30,
+      "rate": 5.06,
+      "d_minus_1": 28.3,
+      "d_minus_7": null
+    },
+    {
+      "rank": 21,
+      "title": "劇場版 我內心的糟糕念頭",
+      "seats": 515,
+      "attendance": 28,
+      "rate": 5.44,
+      "d_minus_1": 13.33,
+      "d_minus_7": 11.57
+    },
+    {
+      "rank": 22,
+      "title": "冠軍之路",
+      "seats": 355,
+      "attendance": 27,
+      "rate": 7.61,
+      "d_minus_1": 16.46,
+      "d_minus_7": 22.13
+    },
+    {
+      "rank": 23,
+      "title": "殺人鯨",
+      "seats": 926,
+      "attendance": 27,
+      "rate": 2.92,
+      "d_minus_1": 26.47,
+      "d_minus_7": null
+    },
+    {
+      "rank": 24,
+      "title": "鬼娃娃",
+      "seats": 827,
+      "attendance": 26,
+      "rate": 3.14,
+      "d_minus_1": 11.61,
+      "d_minus_7": null
+    },
+    {
+      "rank": 25,
+      "title": "米畸妙妙船",
+      "seats": 548,
+      "attendance": 26,
+      "rate": 4.74,
+      "d_minus_1": 32.1,
+      "d_minus_7": null
+    },
+    {
+      "rank": 26,
+      "title": "王命之徒",
+      "seats": 758,
+      "attendance": 25,
+      "rate": 3.3,
+      "d_minus_1": 18.52,
+      "d_minus_7": 10.64
+    },
+    {
+      "rank": 27,
+      "title": "劇場版「鬼滅之刃」無限城篇 第一章 猗窩座再襲",
+      "seats": 188,
+      "attendance": 24,
+      "rate": 12.77,
+      "d_minus_1": 17.78,
+      "d_minus_7": 19.35
+    },
+    {
+      "rank": 28,
+      "title": "哈姆奈特",
+      "seats": 367,
+      "attendance": 23,
+      "rate": 6.27,
+      "d_minus_1": 17.69,
+      "d_minus_7": 9.39
+    },
+    {
+      "rank": 29,
+      "title": "穿越吧 不思議少女",
+      "seats": 670,
+      "attendance": 23,
+      "rate": 3.43,
+      "d_minus_1": 8.39,
+      "d_minus_7": null
+    },
+    {
+      "rank": 30,
+      "title": "茄子 安達魯西亞之夏（同場獻映：茄子 行李箱的候鳥）",
+      "seats": 582,
+      "attendance": 14,
+      "rate": 2.41,
+      "d_minus_1": 5.45,
+      "d_minus_7": null
+    },
+    {
+      "rank": 31,
+      "title": "總統的蛋糕",
+      "seats": 237,
+      "attendance": 13,
+      "rate": 5.49,
+      "d_minus_1": 17.81,
+      "d_minus_7": 20.31
+    },
+    {
+      "rank": 32,
+      "title": "殺戮荒村",
+      "seats": 295,
+      "attendance": 13,
+      "rate": 4.41,
+      "d_minus_1": 24.53,
+      "d_minus_7": null
+    },
+    {
+      "rank": 33,
+      "title": "天眼浩劫",
+      "seats": 371,
+      "attendance": 13,
+      "rate": 3.5,
+      "d_minus_1": 9.42,
+      "d_minus_7": 5.31
+    },
+    {
+      "rank": 34,
+      "title": "劇場版「進擊的巨人」完結篇THE LAST ATTACK",
+      "seats": 142,
+      "attendance": 11,
+      "rate": 7.75,
+      "d_minus_1": 10.48,
+      "d_minus_7": 13.92
+    },
+    {
+      "rank": 35,
+      "title": "水泥市場：末日皇宮",
+      "seats": 200,
+      "attendance": 10,
+      "rate": 5.0,
+      "d_minus_1": 22.22,
+      "d_minus_7": null
+    },
+    {
+      "rank": 36,
+      "title": "秘密會議",
+      "seats": 154,
+      "attendance": 10,
+      "rate": 6.49,
+      "d_minus_1": 6.99,
+      "d_minus_7": null
+    },
+    {
+      "rank": 37,
+      "title": "秒速5公分 真人版",
+      "seats": 77,
+      "attendance": 9,
+      "rate": 11.69,
+      "d_minus_1": 28.12,
+      "d_minus_7": 24.32
+    },
+    {
+      "rank": 38,
+      "title": "豪門殺人指南",
+      "seats": 309,
+      "attendance": 8,
+      "rate": 2.59,
+      "d_minus_1": 8.25,
+      "d_minus_7": 2.71
+    },
+    {
+      "rank": 39,
+      "title": "魔法公主 4K修復版",
+      "seats": 174,
+      "attendance": 7,
+      "rate": 4.02,
+      "d_minus_1": 15.22,
+      "d_minus_7": 6.48
+    },
+    {
+      "rank": 40,
+      "title": "秘密關係",
+      "seats": 75,
+      "attendance": 7,
+      "rate": 9.33,
+      "d_minus_1": 70.0,
+      "d_minus_7": 87.5
+    },
+    {
+      "rank": 41,
+      "title": "鬼追蹤",
+      "seats": 263,
+      "attendance": 6,
+      "rate": 2.28,
+      "d_minus_1": 21.43,
+      "d_minus_7": 4.62
+    },
+    {
+      "rank": 42,
+      "title": "這不只是個間諜故事",
+      "seats": 209,
+      "attendance": 6,
+      "rate": 2.87,
+      "d_minus_1": 8.45,
+      "d_minus_7": null
+    },
+    {
+      "rank": 43,
+      "title": "空之境界劇場版：第五章 矛盾螺旋",
+      "seats": 77,
+      "attendance": 5,
+      "rate": 6.49,
+      "d_minus_1": 5.26,
+      "d_minus_7": 7.14
+    },
+    {
+      "rank": 44,
+      "title": "坂本龍一・永恆的迴響",
+      "seats": 224,
+      "attendance": 4,
+      "rate": 1.79,
+      "d_minus_1": 36.36,
+      "d_minus_7": 7.55
+    },
+    {
+      "rank": 45,
+      "title": "日租家庭",
+      "seats": 70,
+      "attendance": 3,
+      "rate": 4.29,
+      "d_minus_1": 3.66,
+      "d_minus_7": 3.19
+    },
+    {
+      "rank": 46,
+      "title": "咆哮山莊",
+      "seats": 70,
+      "attendance": 2,
+      "rate": 2.86,
+      "d_minus_1": 1.29,
+      "d_minus_7": 1.25
+    },
+    {
+      "rank": 47,
+      "title": "天馬茶房",
+      "seats": 68,
+      "attendance": 0,
+      "rate": 0.0,
+      "d_minus_1": 0.0,
+      "d_minus_7": 0.0
+    }
+  ],
+  "summary": {
+    "total_films": 47,
+    "total_seats": 47618,
+    "total_attendance": 3841,
+    "avg_rate": 8.07,
+    "top_film": "狸想世界",
+    "top_rate": 18.42
+  }
+}
