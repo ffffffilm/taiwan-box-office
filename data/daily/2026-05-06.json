@@ -1,0 +1,383 @@
+{
+  "date": "2026-05-06",
+  "source": "MovieArena",
+  "films": [
+    {
+      "rank": 1,
+      "title": "穿著PRADA的惡魔2",
+      "seats": 63494,
+      "attendance": 10914,
+      "rate": 17.19,
+      "d_minus_1": 107.17,
+      "d_minus_7": 48.54
+    },
+    {
+      "rank": 2,
+      "title": "麥可傑克森",
+      "seats": 21047,
+      "attendance": 2904,
+      "rate": 13.8,
+      "d_minus_1": 110.13,
+      "d_minus_7": 92.37
+    },
+    {
+      "rank": 3,
+      "title": "極限返航",
+      "seats": 8396,
+      "attendance": 1156,
+      "rate": 13.77,
+      "d_minus_1": 106.64,
+      "d_minus_7": 120.04
+    },
+    {
+      "rank": 4,
+      "title": "關於我轉生變成史萊姆這檔事 劇場版 蒼海之淚篇",
+      "seats": 10823,
+      "attendance": 906,
+      "rate": 8.37,
+      "d_minus_1": 102.6,
+      "d_minus_7": null
+    },
+    {
+      "rank": 5,
+      "title": "祭弒",
+      "seats": 12240,
+      "attendance": 884,
+      "rate": 7.22,
+      "d_minus_1": 109.54,
+      "d_minus_7": null
+    },
+    {
+      "rank": 6,
+      "title": "超級瑪利歐銀河電影版",
+      "seats": 16237,
+      "attendance": 868,
+      "rate": 5.35,
+      "d_minus_1": 117.77,
+      "d_minus_7": 63.5
+    },
+    {
+      "rank": 7,
+      "title": "死亡賭局",
+      "seats": 7748,
+      "attendance": 662,
+      "rate": 8.54,
+      "d_minus_1": 113.36,
+      "d_minus_7": 78.9
+    },
+    {
+      "rank": 8,
+      "title": "李克寧 墓乃伊",
+      "seats": 8167,
+      "attendance": 601,
+      "rate": 7.36,
+      "d_minus_1": 104.52,
+      "d_minus_7": 57.84
+    },
+    {
+      "rank": 9,
+      "title": "狸想世界",
+      "seats": 8333,
+      "attendance": 576,
+      "rate": 6.91,
+      "d_minus_1": 109.51,
+      "d_minus_7": 66.36
+    },
+    {
+      "rank": 10,
+      "title": "催眠麥克風",
+      "seats": 3110,
+      "attendance": 501,
+      "rate": 16.11,
+      "d_minus_1": 114.38,
+      "d_minus_7": 51.28
+    },
+    {
+      "rank": 11,
+      "title": "ONE OK ROCK",
+      "seats": 2345,
+      "attendance": 423,
+      "rate": 18.04,
+      "d_minus_1": 257.93,
+      "d_minus_7": 75.94
+    },
+    {
+      "rank": 12,
+      "title": "死亡之握：鬼牽手",
+      "seats": 5663,
+      "attendance": 374,
+      "rate": 6.6,
+      "d_minus_1": 97.14,
+      "d_minus_7": 44.16
+    },
+    {
+      "rank": 13,
+      "title": "殺木池：鬼水禁地",
+      "seats": 3111,
+      "attendance": 362,
+      "rate": 11.64,
+      "d_minus_1": 107.1,
+      "d_minus_7": 56.04
+    },
+    {
+      "rank": 14,
+      "title": "抓馬戀人",
+      "seats": 2493,
+      "attendance": 331,
+      "rate": 13.28,
+      "d_minus_1": 121.69,
+      "d_minus_7": 72.43
+    },
+    {
+      "rank": 15,
+      "title": "愛在每一天",
+      "seats": 1911,
+      "attendance": 323,
+      "rate": 16.9,
+      "d_minus_1": 112.54,
+      "d_minus_7": 104.87
+    },
+    {
+      "rank": 16,
+      "title": "藤本樹17-26：PART 1",
+      "seats": 1856,
+      "attendance": 317,
+      "rate": 17.08,
+      "d_minus_1": 98.14,
+      "d_minus_7": 214.19
+    },
+    {
+      "rank": 17,
+      "title": "後座力",
+      "seats": 1287,
+      "attendance": 294,
+      "rate": 22.84,
+      "d_minus_1": 126.18,
+      "d_minus_7": null
+    },
+    {
+      "rank": 18,
+      "title": "MEZZO FORTE 次強音",
+      "seats": 2449,
+      "attendance": 211,
+      "rate": 8.62,
+      "d_minus_1": 126.35,
+      "d_minus_7": null
+    },
+    {
+      "rank": 19,
+      "title": "伴我一生，感謝你",
+      "seats": 4435,
+      "attendance": 207,
+      "rate": 4.67,
+      "d_minus_1": 108.95,
+      "d_minus_7": null
+    },
+    {
+      "rank": 20,
+      "title": "動物農莊",
+      "seats": 5189,
+      "attendance": 194,
+      "rate": 3.74,
+      "d_minus_1": 97.98,
+      "d_minus_7": null
+    },
+    {
+      "rank": 21,
+      "title": "A KITE風箏",
+      "seats": 702,
+      "attendance": 157,
+      "rate": 22.36,
+      "d_minus_1": 107.53,
+      "d_minus_7": 234.33
+    },
+    {
+      "rank": 22,
+      "title": "空之境界劇場版：第二章 殺人考察(前)",
+      "seats": 1457,
+      "attendance": 130,
+      "rate": 8.92,
+      "d_minus_1": 120.37,
+      "d_minus_7": 125.0
+    },
+    {
+      "rank": 23,
+      "title": "劇場版「暗殺教室」：我們的時光",
+      "seats": 1245,
+      "attendance": 123,
+      "rate": 9.88,
+      "d_minus_1": 164.0,
+      "d_minus_7": 117.14
+    },
+    {
+      "rank": 24,
+      "title": "劇場版 銀河特急 MILKY☆SUBWAY",
+      "seats": 896,
+      "attendance": 96,
+      "rate": 10.71,
+      "d_minus_1": 139.13,
+      "d_minus_7": 145.45
+    },
+    {
+      "rank": 25,
+      "title": "魅影巨星",
+      "seats": 240,
+      "attendance": 69,
+      "rate": 28.75,
+      "d_minus_1": 140.82,
+      "d_minus_7": 127.78
+    },
+    {
+      "rank": 26,
+      "title": "終極搜查",
+      "seats": 1838,
+      "attendance": 67,
+      "rate": 3.65,
+      "d_minus_1": 103.08,
+      "d_minus_7": null
+    },
+    {
+      "rank": 27,
+      "title": "0時盜數",
+      "seats": 1125,
+      "attendance": 65,
+      "rate": 5.78,
+      "d_minus_1": 118.18,
+      "d_minus_7": 29.41
+    },
+    {
+      "rank": 28,
+      "title": "最後的棋局",
+      "seats": 860,
+      "attendance": 56,
+      "rate": 6.51,
+      "d_minus_1": 116.67,
+      "d_minus_7": null
+    },
+    {
+      "rank": 29,
+      "title": "屍咒還魂",
+      "seats": 926,
+      "attendance": 52,
+      "rate": 5.62,
+      "d_minus_1": 96.3,
+      "d_minus_7": null
+    },
+    {
+      "rank": 30,
+      "title": "夏日大作戰 全新4K修復版",
+      "seats": 226,
+      "attendance": 51,
+      "rate": 22.57,
+      "d_minus_1": 113.33,
+      "d_minus_7": 221.74
+    },
+    {
+      "rank": 31,
+      "title": "巧虎電影　勇氣之歌",
+      "seats": 1497,
+      "attendance": 44,
+      "rate": 2.94,
+      "d_minus_1": 104.76,
+      "d_minus_7": 100.0
+    },
+    {
+      "rank": 32,
+      "title": "陽光女子合唱團",
+      "seats": 283,
+      "attendance": 39,
+      "rate": 13.78,
+      "d_minus_1": 73.58,
+      "d_minus_7": 73.58
+    },
+    {
+      "rank": 33,
+      "title": "竊取本書者將會…",
+      "seats": 705,
+      "attendance": 33,
+      "rate": 4.68,
+      "d_minus_1": 157.14,
+      "d_minus_7": 41.25
+    },
+    {
+      "rank": 34,
+      "title": "空姐復仇記",
+      "seats": 873,
+      "attendance": 24,
+      "rate": 2.75,
+      "d_minus_1": 171.43,
+      "d_minus_7": 53.33
+    },
+    {
+      "rank": 35,
+      "title": "你是不會當樹嗎",
+      "seats": 87,
+      "attendance": 23,
+      "rate": 26.44,
+      "d_minus_1": 32.86,
+      "d_minus_7": 31.08
+    },
+    {
+      "rank": 36,
+      "title": "3670",
+      "seats": 51,
+      "attendance": 21,
+      "rate": 41.18,
+      "d_minus_1": 420.0,
+      "d_minus_7": 140.0
+    },
+    {
+      "rank": 37,
+      "title": "我要說出真相",
+      "seats": 252,
+      "attendance": 20,
+      "rate": 7.94,
+      "d_minus_1": 90.91,
+      "d_minus_7": 50.0
+    },
+    {
+      "rank": 38,
+      "title": "NO GOOD!歐吉桑",
+      "seats": 326,
+      "attendance": 19,
+      "rate": 5.83,
+      "d_minus_1": 135.71,
+      "d_minus_7": 38.78
+    },
+    {
+      "rank": 39,
+      "title": "大檢察官",
+      "seats": 37,
+      "attendance": 8,
+      "rate": 21.62,
+      "d_minus_1": 100.0,
+      "d_minus_7": 30.77
+    },
+    {
+      "rank": 40,
+      "title": "捕風追影",
+      "seats": 42,
+      "attendance": 5,
+      "rate": 11.9,
+      "d_minus_1": 250.0,
+      "d_minus_7": 38.46
+    },
+    {
+      "rank": 41,
+      "title": "星光王子 Your Endless Call! 一起閃耀!Prism Tours",
+      "seats": 90,
+      "attendance": 4,
+      "rate": 4.44,
+      "d_minus_1": 200.0,
+      "d_minus_7": 133.33
+    }
+  ],
+  "summary": {
+    "total_films": 41,
+    "total_seats": 204092,
+    "total_attendance": 24114,
+    "avg_rate": 11.82,
+    "top_film": "穿著PRADA的惡魔2",
+    "top_rate": 17.19
+  }
+}
