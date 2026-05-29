@@ -1,0 +1,455 @@
+{
+  "date": "2026-05-29",
+  "source": "MovieArena",
+  "films": [
+    {
+      "rank": 1,
+      "title": "屍速禁區",
+      "seats": 53737,
+      "attendance": 13497,
+      "rate": 25.12,
+      "d_minus_1": 124.09,
+      "d_minus_7": 87.81
+    },
+    {
+      "rank": 2,
+      "title": "後室",
+      "seats": 20682,
+      "attendance": 7529,
+      "rate": 36.4,
+      "d_minus_1": 129.48,
+      "d_minus_7": null
+    },
+    {
+      "rank": 3,
+      "title": "穿著PRADA的惡魔2",
+      "seats": 19919,
+      "attendance": 3480,
+      "rate": 17.47,
+      "d_minus_1": 129.61,
+      "d_minus_7": 64.91
+    },
+    {
+      "rank": 4,
+      "title": "2026 SHINee WORLD VIII : [THE INVERT] IN",
+      "seats": 3029,
+      "attendance": 2169,
+      "rate": 71.61,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 5,
+      "title": "曼達洛人與古古",
+      "seats": 27655,
+      "attendance": 1880,
+      "rate": 6.8,
+      "d_minus_1": 116.55,
+      "d_minus_7": 43.77
+    },
+    {
+      "rank": 6,
+      "title": "麥可傑克森",
+      "seats": 9515,
+      "attendance": 1316,
+      "rate": 13.83,
+      "d_minus_1": 124.27,
+      "d_minus_7": 65.38
+    },
+    {
+      "rank": 7,
+      "title": "神木之島",
+      "seats": 6782,
+      "attendance": 1106,
+      "rate": 16.31,
+      "d_minus_1": 96.09,
+      "d_minus_7": 66.95
+    },
+    {
+      "rank": 8,
+      "title": "催眠麥克風",
+      "seats": 3024,
+      "attendance": 1085,
+      "rate": 35.88,
+      "d_minus_1": 358.09,
+      "d_minus_7": 155.67
+    },
+    {
+      "rank": 9,
+      "title": "別離無恙",
+      "seats": 6330,
+      "attendance": 828,
+      "rate": 13.08,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 10,
+      "title": "新劇場版 銀魂 -吉原大炎上-",
+      "seats": 4411,
+      "attendance": 601,
+      "rate": 13.63,
+      "d_minus_1": 144.82,
+      "d_minus_7": 50.46
+    },
+    {
+      "rank": 11,
+      "title": "失樂園",
+      "seats": 5215,
+      "attendance": 563,
+      "rate": 10.8,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 12,
+      "title": "寒戰1994",
+      "seats": 3427,
+      "attendance": 356,
+      "rate": 10.39,
+      "d_minus_1": 88.56,
+      "d_minus_7": 41.25
+    },
+    {
+      "rank": 13,
+      "title": "出口成髒 口碑場",
+      "seats": 6305,
+      "attendance": 284,
+      "rate": 4.5,
+      "d_minus_1": null,
+      "d_minus_7": 119.33
+    },
+    {
+      "rank": 14,
+      "title": "TOMORROW X TOGETHER VR CONCERT：HEART ATT",
+      "seats": 2408,
+      "attendance": 263,
+      "rate": 10.92,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 15,
+      "title": "飛吧！熊鷹",
+      "seats": 2332,
+      "attendance": 231,
+      "rate": 9.91,
+      "d_minus_1": 65.44,
+      "d_minus_7": 70.43
+    },
+    {
+      "rank": 16,
+      "title": "關於我轉生變成史萊姆這檔事 劇場版 蒼海之淚篇",
+      "seats": 2636,
+      "attendance": 219,
+      "rate": 8.31,
+      "d_minus_1": 111.73,
+      "d_minus_7": 72.76
+    },
+    {
+      "rank": 17,
+      "title": "花綠青綻放之時",
+      "seats": 3521,
+      "attendance": 186,
+      "rate": 5.28,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 18,
+      "title": "極限返航",
+      "seats": 2040,
+      "attendance": 181,
+      "rate": 8.87,
+      "d_minus_1": 87.02,
+      "d_minus_7": 46.65
+    },
+    {
+      "rank": 19,
+      "title": "超級瑪利歐銀河電影版",
+      "seats": 3046,
+      "attendance": 180,
+      "rate": 5.91,
+      "d_minus_1": 118.42,
+      "d_minus_7": 65.69
+    },
+    {
+      "rank": 20,
+      "title": "末代皇帝（數位修復版）",
+      "seats": 1909,
+      "attendance": 153,
+      "rate": 8.01,
+      "d_minus_1": 53.5,
+      "d_minus_7": 35.25
+    },
+    {
+      "rank": 21,
+      "title": "狸想世界",
+      "seats": 1587,
+      "attendance": 125,
+      "rate": 7.88,
+      "d_minus_1": 105.93,
+      "d_minus_7": 54.82
+    },
+    {
+      "rank": 22,
+      "title": "佐藤妻夫物語",
+      "seats": 2621,
+      "attendance": 121,
+      "rate": 4.62,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 23,
+      "title": "絕種",
+      "seats": 1802,
+      "attendance": 105,
+      "rate": 5.83,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 24,
+      "title": "末路相縫",
+      "seats": 1639,
+      "attendance": 92,
+      "rate": 5.61,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 25,
+      "title": "QUEER",
+      "seats": 247,
+      "attendance": 89,
+      "rate": 36.03,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 26,
+      "title": "綿羊偵探團",
+      "seats": 687,
+      "attendance": 85,
+      "rate": 12.37,
+      "d_minus_1": 59.03,
+      "d_minus_7": 63.91
+    },
+    {
+      "rank": 27,
+      "title": "地下城の怪物先生",
+      "seats": 2236,
+      "attendance": 84,
+      "rate": 3.76,
+      "d_minus_1": 37.0,
+      "d_minus_7": 29.07
+    },
+    {
+      "rank": 28,
+      "title": "名偵探柯南 引爆摩天樓 4K數位修復版",
+      "seats": 1115,
+      "attendance": 72,
+      "rate": 6.46,
+      "d_minus_1": 69.9,
+      "d_minus_7": 34.78
+    },
+    {
+      "rank": 29,
+      "title": "你能吃到媽媽煮的飯的次數，還剩365次",
+      "seats": 513,
+      "attendance": 72,
+      "rate": 14.04,
+      "d_minus_1": 37.7,
+      "d_minus_7": 33.18
+    },
+    {
+      "rank": 30,
+      "title": "衝鋒戰士劇場版：神祕魔術團之謎",
+      "seats": 2308,
+      "attendance": 69,
+      "rate": 2.99,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 31,
+      "title": "捍衛戰士: 獨行俠",
+      "seats": 288,
+      "attendance": 53,
+      "rate": 18.4,
+      "d_minus_1": 88.33,
+      "d_minus_7": 72.6
+    },
+    {
+      "rank": 32,
+      "title": "巧虎電影　勇氣之歌",
+      "seats": 1985,
+      "attendance": 50,
+      "rate": 2.52,
+      "d_minus_1": 135.14,
+      "d_minus_7": 76.92
+    },
+    {
+      "rank": 33,
+      "title": "抓狂德古拉",
+      "seats": 728,
+      "attendance": 47,
+      "rate": 6.46,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 34,
+      "title": "單身動物園",
+      "seats": 704,
+      "attendance": 42,
+      "rate": 5.97,
+      "d_minus_1": 45.65,
+      "d_minus_7": 25.77
+    },
+    {
+      "rank": 35,
+      "title": "奇愛博士 (英國國家劇院現場)",
+      "seats": 595,
+      "attendance": 38,
+      "rate": 6.39,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 36,
+      "title": "死亡之握：鬼牽手",
+      "seats": 256,
+      "attendance": 28,
+      "rate": 10.94,
+      "d_minus_1": 100.0,
+      "d_minus_7": 41.79
+    },
+    {
+      "rank": 37,
+      "title": "落葉",
+      "seats": 247,
+      "attendance": 27,
+      "rate": 10.93,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 38,
+      "title": "死亡賭局",
+      "seats": 271,
+      "attendance": 25,
+      "rate": 9.23,
+      "d_minus_1": 59.52,
+      "d_minus_7": 48.08
+    },
+    {
+      "rank": 39,
+      "title": "傳奇女伶 高菊花",
+      "seats": 282,
+      "attendance": 22,
+      "rate": 7.8,
+      "d_minus_1": 33.33,
+      "d_minus_7": 29.33
+    },
+    {
+      "rank": 40,
+      "title": "殺木池：鬼水禁地",
+      "seats": 242,
+      "attendance": 22,
+      "rate": 9.09,
+      "d_minus_1": 91.67,
+      "d_minus_7": 33.33
+    },
+    {
+      "rank": 41,
+      "title": "真人快打 II",
+      "seats": 373,
+      "attendance": 13,
+      "rate": 3.49,
+      "d_minus_1": 22.81,
+      "d_minus_7": 11.3
+    },
+    {
+      "rank": 42,
+      "title": "怪奇比莉－溫柔重擊巡迴演唱會 3D 電影",
+      "seats": 123,
+      "attendance": 13,
+      "rate": 10.57,
+      "d_minus_1": 28.26,
+      "d_minus_7": 19.7
+    },
+    {
+      "rank": 43,
+      "title": "陽光女子合唱團",
+      "seats": 70,
+      "attendance": 11,
+      "rate": 15.71,
+      "d_minus_1": 122.22,
+      "d_minus_7": 122.22
+    },
+    {
+      "rank": 44,
+      "title": "祭弒",
+      "seats": 111,
+      "attendance": 11,
+      "rate": 9.91,
+      "d_minus_1": 17.19,
+      "d_minus_7": 10.78
+    },
+    {
+      "rank": 45,
+      "title": "第五步驟 (英國國家劇院現場)",
+      "seats": 116,
+      "attendance": 9,
+      "rate": 7.76,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 46,
+      "title": "劇場版「暗殺教室」：我們的時光",
+      "seats": 145,
+      "attendance": 8,
+      "rate": 5.52,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 47,
+      "title": "農曆三月二十三",
+      "seats": 74,
+      "attendance": 4,
+      "rate": 5.41,
+      "d_minus_1": 19.05,
+      "d_minus_7": 8.51
+    },
+    {
+      "rank": 48,
+      "title": "空之境界劇場版：第二章 殺人考察(前)",
+      "seats": 42,
+      "attendance": 4,
+      "rate": 9.52,
+      "d_minus_1": 30.77,
+      "d_minus_7": 6.15
+    },
+    {
+      "rank": 49,
+      "title": "開棺2：家族詛咒",
+      "seats": 75,
+      "attendance": 2,
+      "rate": 2.67,
+      "d_minus_1": null,
+      "d_minus_7": 11.11
+    }
+  ],
+  "summary": {
+    "total_films": 49,
+    "total_seats": 209405,
+    "total_attendance": 37450,
+    "avg_rate": 17.88,
+    "top_film": "屍速禁區",
+    "top_rate": 25.12
+  }
+}
