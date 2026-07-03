@@ -1,0 +1,302 @@
+{
+  "date": "2026-07-03",
+  "source": "MovieArena",
+  "films": [
+    {
+      "rank": 1,
+      "title": "名偵探柯南 高速公路的墮天使",
+      "seats": 58794,
+      "attendance": 12285,
+      "rate": 20.89,
+      "d_minus_1": 147.0,
+      "d_minus_7": 72.31
+    },
+    {
+      "rank": 2,
+      "title": "小小兵&大怪獸",
+      "seats": 87101,
+      "attendance": 9668,
+      "rate": 11.1,
+      "d_minus_1": 158.73,
+      "d_minus_7": null
+    },
+    {
+      "rank": 3,
+      "title": "玩具總動員5",
+      "seats": 53797,
+      "attendance": 8935,
+      "rate": 16.61,
+      "d_minus_1": 139.22,
+      "d_minus_7": 61.98
+    },
+    {
+      "rank": 4,
+      "title": "屍速禁區",
+      "seats": 7663,
+      "attendance": 1337,
+      "rate": 17.45,
+      "d_minus_1": 129.81,
+      "d_minus_7": 57.38
+    },
+    {
+      "rank": 5,
+      "title": "後室",
+      "seats": 3987,
+      "attendance": 903,
+      "rate": 22.65,
+      "d_minus_1": 111.34,
+      "d_minus_7": 81.57
+    },
+    {
+      "rank": 6,
+      "title": "超少女",
+      "seats": 13220,
+      "attendance": 897,
+      "rate": 6.79,
+      "d_minus_1": 61.69,
+      "d_minus_7": 23.87
+    },
+    {
+      "rank": 7,
+      "title": "揭密日",
+      "seats": 6109,
+      "attendance": 858,
+      "rate": 14.04,
+      "d_minus_1": 120.68,
+      "d_minus_7": 56.3
+    },
+    {
+      "rank": 8,
+      "title": "&TEAM VR CONCERT: BOUNDLESS",
+      "seats": 2408,
+      "attendance": 567,
+      "rate": 23.55,
+      "d_minus_1": 197.56,
+      "d_minus_7": 109.46
+    },
+    {
+      "rank": 9,
+      "title": "跟蹤",
+      "seats": 2556,
+      "attendance": 471,
+      "rate": 18.43,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 10,
+      "title": "鬼囚",
+      "seats": 3402,
+      "attendance": 409,
+      "rate": 12.02,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 11,
+      "title": "催眠麥克風",
+      "seats": 2564,
+      "attendance": 386,
+      "rate": 15.05,
+      "d_minus_1": 179.53,
+      "d_minus_7": 124.92
+    },
+    {
+      "rank": 12,
+      "title": "火喰鳥之鳴",
+      "seats": 2587,
+      "attendance": 169,
+      "rate": 6.53,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 13,
+      "title": "絕殺路人甲",
+      "seats": 1953,
+      "attendance": 159,
+      "rate": 8.14,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 14,
+      "title": "穿著PRADA的惡魔2",
+      "seats": 1046,
+      "attendance": 151,
+      "rate": 14.44,
+      "d_minus_1": 83.43,
+      "d_minus_7": 48.24
+    },
+    {
+      "rank": 15,
+      "title": "鬼上車",
+      "seats": 741,
+      "attendance": 85,
+      "rate": 11.47,
+      "d_minus_1": 57.43,
+      "d_minus_7": 36.17
+    },
+    {
+      "rank": 16,
+      "title": "驚聲尖笑",
+      "seats": 721,
+      "attendance": 84,
+      "rate": 11.65,
+      "d_minus_1": 92.31,
+      "d_minus_7": 38.18
+    },
+    {
+      "rank": 17,
+      "title": "火遮眼",
+      "seats": 808,
+      "attendance": 68,
+      "rate": 8.42,
+      "d_minus_1": 53.97,
+      "d_minus_7": 31.48
+    },
+    {
+      "rank": 18,
+      "title": "妳最後留下的歌",
+      "seats": 758,
+      "attendance": 64,
+      "rate": 8.44,
+      "d_minus_1": 63.37,
+      "d_minus_7": 51.61
+    },
+    {
+      "rank": 19,
+      "title": "巧虎電影　勇氣之歌",
+      "seats": 2269,
+      "attendance": 63,
+      "rate": 2.78,
+      "d_minus_1": 157.5,
+      "d_minus_7": 110.53
+    },
+    {
+      "rank": 20,
+      "title": "新劇場版 銀魂 -吉原大炎上-",
+      "seats": 306,
+      "attendance": 61,
+      "rate": 19.93,
+      "d_minus_1": 469.23,
+      "d_minus_7": 61.0
+    },
+    {
+      "rank": 21,
+      "title": "幹夫狂想曲",
+      "seats": 651,
+      "attendance": 59,
+      "rate": 9.06,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 22,
+      "title": "電影版教場：驪歌",
+      "seats": 696,
+      "attendance": 58,
+      "rate": 8.33,
+      "d_minus_1": 43.28,
+      "d_minus_7": 20.57
+    },
+    {
+      "rank": 23,
+      "title": "空之境界劇場版：終章",
+      "seats": 1621,
+      "attendance": 56,
+      "rate": 3.45,
+      "d_minus_1": 66.67,
+      "d_minus_7": 57.14
+    },
+    {
+      "rank": 24,
+      "title": "ENHYPEN : IMMERSION IN CINEMAS",
+      "seats": 1097,
+      "attendance": 41,
+      "rate": 3.74,
+      "d_minus_1": 37.27,
+      "d_minus_7": 29.29
+    },
+    {
+      "rank": 25,
+      "title": "神木之島",
+      "seats": 234,
+      "attendance": 29,
+      "rate": 12.39,
+      "d_minus_1": 76.32,
+      "d_minus_7": 78.38
+    },
+    {
+      "rank": 26,
+      "title": "極限返航",
+      "seats": 118,
+      "attendance": 29,
+      "rate": 24.58,
+      "d_minus_1": 580.0,
+      "d_minus_7": 181.25
+    },
+    {
+      "rank": 27,
+      "title": "麥可傑克森",
+      "seats": 129,
+      "attendance": 24,
+      "rate": 18.6,
+      "d_minus_1": 26.97,
+      "d_minus_7": 47.06
+    },
+    {
+      "rank": 28,
+      "title": "陽光女子合唱團",
+      "seats": 38,
+      "attendance": 22,
+      "rate": 57.89,
+      "d_minus_1": null,
+      "d_minus_7": 314.29
+    },
+    {
+      "rank": 29,
+      "title": "失樂園",
+      "seats": 82,
+      "attendance": 20,
+      "rate": 24.39,
+      "d_minus_1": 105.26,
+      "d_minus_7": 51.28
+    },
+    {
+      "rank": 30,
+      "title": "為一切人，成為一切",
+      "seats": 116,
+      "attendance": 20,
+      "rate": 17.24,
+      "d_minus_1": 48.78,
+      "d_minus_7": 57.14
+    },
+    {
+      "rank": 31,
+      "title": "超級瑪利歐銀河電影版",
+      "seats": 86,
+      "attendance": 9,
+      "rate": 10.47,
+      "d_minus_1": null,
+      "d_minus_7": 42.86
+    },
+    {
+      "rank": 32,
+      "title": "別離無恙",
+      "seats": 36,
+      "attendance": 4,
+      "rate": 11.11,
+      "d_minus_1": 33.33,
+      "d_minus_7": 57.14
+    }
+  ],
+  "summary": {
+    "total_films": 32,
+    "total_seats": 257694,
+    "total_attendance": 37991,
+    "avg_rate": 14.74,
+    "top_film": "名偵探柯南 高速公路的墮天使",
+    "top_rate": 20.89
+  }
+}
