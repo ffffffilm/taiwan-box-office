@@ -1,0 +1,239 @@
+{
+  "date": "2026-07-10",
+  "source": "MovieArena",
+  "films": [
+    {
+      "rank": 1,
+      "title": "名偵探柯南 高速公路的墮天使",
+      "seats": 11831,
+      "attendance": 1962,
+      "rate": 16.58,
+      "d_minus_1": 27.82,
+      "d_minus_7": 15.97
+    },
+    {
+      "rank": 2,
+      "title": "小小兵&大怪獸",
+      "seats": 9931,
+      "attendance": 1564,
+      "rate": 15.75,
+      "d_minus_1": 30.85,
+      "d_minus_7": 16.18
+    },
+    {
+      "rank": 3,
+      "title": "玩具總動員5",
+      "seats": 10721,
+      "attendance": 1409,
+      "rate": 13.14,
+      "d_minus_1": 26.12,
+      "d_minus_7": 15.77
+    },
+    {
+      "rank": 4,
+      "title": "海洋奇緣 (真人版)",
+      "seats": 18175,
+      "attendance": 1359,
+      "rate": 7.48,
+      "d_minus_1": 29.74,
+      "d_minus_7": null
+    },
+    {
+      "rank": 5,
+      "title": "電影哆啦A夢：新．大雄的海底鬼岩城",
+      "seats": 6412,
+      "attendance": 931,
+      "rate": 14.52,
+      "d_minus_1": 40.37,
+      "d_minus_7": null
+    },
+    {
+      "rank": 6,
+      "title": "屍變焚場",
+      "seats": 2871,
+      "attendance": 345,
+      "rate": 12.02,
+      "d_minus_1": 22.64,
+      "d_minus_7": null
+    },
+    {
+      "rank": 7,
+      "title": "後室",
+      "seats": 1311,
+      "attendance": 298,
+      "rate": 22.73,
+      "d_minus_1": 67.27,
+      "d_minus_7": 33.0
+    },
+    {
+      "rank": 8,
+      "title": "屍速禁區",
+      "seats": 809,
+      "attendance": 254,
+      "rate": 31.4,
+      "d_minus_1": 30.31,
+      "d_minus_7": 19.0
+    },
+    {
+      "rank": 9,
+      "title": "最後的我們",
+      "seats": 3206,
+      "attendance": 206,
+      "rate": 6.43,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 10,
+      "title": "攻殼機動隊 2026",
+      "seats": 2094,
+      "attendance": 142,
+      "rate": 6.78,
+      "d_minus_1": 28.12,
+      "d_minus_7": null
+    },
+    {
+      "rank": 11,
+      "title": "催眠麥克風",
+      "seats": 991,
+      "attendance": 119,
+      "rate": 12.01,
+      "d_minus_1": 39.27,
+      "d_minus_7": 30.83
+    },
+    {
+      "rank": 12,
+      "title": "魯冰花（數位修復版）",
+      "seats": 357,
+      "attendance": 58,
+      "rate": 16.25,
+      "d_minus_1": 16.02,
+      "d_minus_7": null
+    },
+    {
+      "rank": 13,
+      "title": "揭密日",
+      "seats": 502,
+      "attendance": 49,
+      "rate": 9.76,
+      "d_minus_1": 11.09,
+      "d_minus_7": 5.71
+    },
+    {
+      "rank": 14,
+      "title": "跟蹤",
+      "seats": 674,
+      "attendance": 45,
+      "rate": 6.68,
+      "d_minus_1": 28.66,
+      "d_minus_7": 9.55
+    },
+    {
+      "rank": 15,
+      "title": "外賣：4K數位紀念版",
+      "seats": 627,
+      "attendance": 45,
+      "rate": 7.18,
+      "d_minus_1": 61.64,
+      "d_minus_7": null
+    },
+    {
+      "rank": 16,
+      "title": "超少女",
+      "seats": 638,
+      "attendance": 27,
+      "rate": 4.23,
+      "d_minus_1": 11.84,
+      "d_minus_7": 3.01
+    },
+    {
+      "rank": 17,
+      "title": "人為什麼寫情書",
+      "seats": 266,
+      "attendance": 23,
+      "rate": 8.65,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 18,
+      "title": "新浪潮",
+      "seats": 189,
+      "attendance": 16,
+      "rate": 8.47,
+      "d_minus_1": 34.04,
+      "d_minus_7": null
+    },
+    {
+      "rank": 19,
+      "title": "鬼囚",
+      "seats": 258,
+      "attendance": 16,
+      "rate": 6.2,
+      "d_minus_1": 9.47,
+      "d_minus_7": 3.91
+    },
+    {
+      "rank": 20,
+      "title": "巧虎電影　勇氣之歌",
+      "seats": 581,
+      "attendance": 14,
+      "rate": 2.41,
+      "d_minus_1": 42.42,
+      "d_minus_7": 22.22
+    },
+    {
+      "rank": 21,
+      "title": "空之境界劇場版：終章",
+      "seats": 461,
+      "attendance": 11,
+      "rate": 2.39,
+      "d_minus_1": 26.83,
+      "d_minus_7": 19.64
+    },
+    {
+      "rank": 22,
+      "title": "火喰鳥之鳴",
+      "seats": 286,
+      "attendance": 9,
+      "rate": 3.15,
+      "d_minus_1": 26.47,
+      "d_minus_7": 5.33
+    },
+    {
+      "rank": 23,
+      "title": "偶像禁愛令",
+      "seats": 167,
+      "attendance": 8,
+      "rate": 4.79,
+      "d_minus_1": 14.04,
+      "d_minus_7": null
+    },
+    {
+      "rank": 24,
+      "title": "夢的力量",
+      "seats": 112,
+      "attendance": 6,
+      "rate": 5.36,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 25,
+      "title": "妳最後留下的歌",
+      "seats": 70,
+      "attendance": 2,
+      "rate": 2.86,
+      "d_minus_1": 15.38,
+      "d_minus_7": 3.12
+    }
+  ],
+  "summary": {
+    "total_films": 25,
+    "total_seats": 73540,
+    "total_attendance": 8918,
+    "avg_rate": 12.13,
+    "top_film": "名偵探柯南 高速公路的墮天使",
+    "top_rate": 16.58
+  }
+}
