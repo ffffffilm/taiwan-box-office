@@ -1,0 +1,302 @@
+{
+  "date": "2026-07-24",
+  "source": "MovieArena",
+  "films": [
+    {
+      "rank": 1,
+      "title": "奧德賽",
+      "seats": 51690,
+      "attendance": 17147,
+      "rate": 33.17,
+      "d_minus_1": 125.72,
+      "d_minus_7": 92.55
+    },
+    {
+      "rank": 2,
+      "title": "名偵探柯南 高速公路的墮天使",
+      "seats": 30157,
+      "attendance": 4368,
+      "rate": 14.48,
+      "d_minus_1": 134.65,
+      "d_minus_7": 82.57
+    },
+    {
+      "rank": 3,
+      "title": "玩具總動員5",
+      "seats": 22536,
+      "attendance": 2284,
+      "rate": 10.13,
+      "d_minus_1": 105.99,
+      "d_minus_7": 52.72
+    },
+    {
+      "rank": 4,
+      "title": "小小兵&大怪獸",
+      "seats": 20276,
+      "attendance": 2217,
+      "rate": 10.93,
+      "d_minus_1": 111.24,
+      "d_minus_7": 61.07
+    },
+    {
+      "rank": 5,
+      "title": "你的名字。",
+      "seats": 6195,
+      "attendance": 2162,
+      "rate": 34.9,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 6,
+      "title": "海洋奇緣 (真人版)",
+      "seats": 14075,
+      "attendance": 1332,
+      "rate": 9.46,
+      "d_minus_1": 110.72,
+      "d_minus_7": 63.25
+    },
+    {
+      "rank": 7,
+      "title": "電影哆啦A夢：新．大雄的海底鬼岩城",
+      "seats": 12017,
+      "attendance": 1126,
+      "rate": 9.37,
+      "d_minus_1": 78.74,
+      "d_minus_7": 62.31
+    },
+    {
+      "rank": 8,
+      "title": "再生家族",
+      "seats": 5043,
+      "attendance": 317,
+      "rate": 6.29,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 9,
+      "title": "魯冰花（數位修復版）",
+      "seats": 1996,
+      "attendance": 307,
+      "rate": 15.38,
+      "d_minus_1": 156.63,
+      "d_minus_7": 140.18
+    },
+    {
+      "rank": 10,
+      "title": "後室",
+      "seats": 2424,
+      "attendance": 289,
+      "rate": 11.92,
+      "d_minus_1": 74.48,
+      "d_minus_7": 61.62
+    },
+    {
+      "rank": 11,
+      "title": "航海王劇場版：阿拉巴斯坦戰記 ~ 沙漠王女與海賊們",
+      "seats": 3376,
+      "attendance": 283,
+      "rate": 8.38,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 12,
+      "title": "鬼汙",
+      "seats": 2227,
+      "attendance": 249,
+      "rate": 11.18,
+      "d_minus_1": 72.17,
+      "d_minus_7": 41.09
+    },
+    {
+      "rank": 13,
+      "title": "屍速禁區",
+      "seats": 1825,
+      "attendance": 240,
+      "rate": 13.15,
+      "d_minus_1": 114.83,
+      "d_minus_7": 67.61
+    },
+    {
+      "rank": 14,
+      "title": "航海王劇場版：紅髮歌姬",
+      "seats": 3386,
+      "attendance": 234,
+      "rate": 6.91,
+      "d_minus_1": 47.85,
+      "d_minus_7": 21.57
+    },
+    {
+      "rank": 15,
+      "title": "屍變焚場",
+      "seats": 2920,
+      "attendance": 218,
+      "rate": 7.47,
+      "d_minus_1": 53.69,
+      "d_minus_7": 42.66
+    },
+    {
+      "rank": 16,
+      "title": "催眠麥克風",
+      "seats": 1739,
+      "attendance": 215,
+      "rate": 12.36,
+      "d_minus_1": 46.14,
+      "d_minus_7": 73.88
+    },
+    {
+      "rank": 17,
+      "title": "D3-偶像大師20週年MORE RE@LITY LIVE IDOL WORLD",
+      "seats": 899,
+      "attendance": 95,
+      "rate": 10.57,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 18,
+      "title": "赤身裸愛",
+      "seats": 801,
+      "attendance": 89,
+      "rate": 11.11,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 19,
+      "title": "鬼侵身",
+      "seats": 1392,
+      "attendance": 66,
+      "rate": 4.74,
+      "d_minus_1": 34.92,
+      "d_minus_7": 24.63
+    },
+    {
+      "rank": 20,
+      "title": "香巴拉物語",
+      "seats": 1234,
+      "attendance": 64,
+      "rate": 5.19,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 21,
+      "title": "最後的我們",
+      "seats": 1588,
+      "attendance": 52,
+      "rate": 3.27,
+      "d_minus_1": 37.14,
+      "d_minus_7": 33.12
+    },
+    {
+      "rank": 22,
+      "title": "世界的主人",
+      "seats": 589,
+      "attendance": 50,
+      "rate": 8.49,
+      "d_minus_1": 31.45,
+      "d_minus_7": 70.42
+    },
+    {
+      "rank": 23,
+      "title": "巧虎電影　勇氣之歌",
+      "seats": 2364,
+      "attendance": 49,
+      "rate": 2.07,
+      "d_minus_1": 272.22,
+      "d_minus_7": 119.51
+    },
+    {
+      "rank": 24,
+      "title": "極鼠方程式",
+      "seats": 1118,
+      "attendance": 47,
+      "rate": 4.2,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 25,
+      "title": "【後篇】劇場版 少女樂團吶喊吧-嗨 未來",
+      "seats": 731,
+      "attendance": 43,
+      "rate": 5.88,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 26,
+      "title": "這年夏天，愛之尋謎",
+      "seats": 1059,
+      "attendance": 42,
+      "rate": 3.97,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 27,
+      "title": "劇場版 境界的彼方 -I’LL BE HERE- 過去篇",
+      "seats": 757,
+      "attendance": 39,
+      "rate": 5.15,
+      "d_minus_1": 30.95,
+      "d_minus_7": 20.21
+    },
+    {
+      "rank": 28,
+      "title": "揭密日",
+      "seats": 356,
+      "attendance": 30,
+      "rate": 8.43,
+      "d_minus_1": 22.22,
+      "d_minus_7": 15.31
+    },
+    {
+      "rank": 29,
+      "title": "跟蹤",
+      "seats": 176,
+      "attendance": 29,
+      "rate": 16.48,
+      "d_minus_1": 64.44,
+      "d_minus_7": 61.7
+    },
+    {
+      "rank": 30,
+      "title": "勇者傳奇",
+      "seats": 521,
+      "attendance": 15,
+      "rate": 2.88,
+      "d_minus_1": 36.59,
+      "d_minus_7": 31.25
+    },
+    {
+      "rank": 31,
+      "title": "空之境界劇場版：終章",
+      "seats": 186,
+      "attendance": 8,
+      "rate": 4.3,
+      "d_minus_1": 80.0,
+      "d_minus_7": 33.33
+    },
+    {
+      "rank": 32,
+      "title": "陽光女子合唱團",
+      "seats": 44,
+      "attendance": 8,
+      "rate": 18.18,
+      "d_minus_1": 47.06,
+      "d_minus_7": 57.14
+    }
+  ],
+  "summary": {
+    "total_films": 32,
+    "total_seats": 195697,
+    "total_attendance": 33714,
+    "avg_rate": 17.23,
+    "top_film": "奧德賽",
+    "top_rate": 33.17
+  }
+}
