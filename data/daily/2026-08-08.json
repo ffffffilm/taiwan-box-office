@@ -1,0 +1,275 @@
+{
+  "date": "2026-08-08",
+  "source": "MovieArena",
+  "films": [
+    {
+      "rank": 1,
+      "title": "蜘蛛人：重生日",
+      "seats": 89659,
+      "attendance": 49033,
+      "rate": 54.69,
+      "d_minus_1": 153.07,
+      "d_minus_7": 75.92
+    },
+    {
+      "rank": 2,
+      "title": "奧德賽",
+      "seats": 31838,
+      "attendance": 19972,
+      "rate": 62.73,
+      "d_minus_1": 146.84,
+      "d_minus_7": 79.28
+    },
+    {
+      "rank": 3,
+      "title": "劇場版 吉伊卡哇 人魚島的秘密",
+      "seats": 37085,
+      "attendance": 14509,
+      "rate": 39.12,
+      "d_minus_1": 140.75,
+      "d_minus_7": 64.65
+    },
+    {
+      "rank": 4,
+      "title": "電影蠟筆小新：奇奇怪怪！我的妖怪假期",
+      "seats": 16541,
+      "attendance": 7318,
+      "rate": 44.24,
+      "d_minus_1": 131.97,
+      "d_minus_7": null
+    },
+    {
+      "rank": 5,
+      "title": "愛你致死不渝",
+      "seats": 8944,
+      "attendance": 4501,
+      "rate": 50.32,
+      "d_minus_1": 152.11,
+      "d_minus_7": null
+    },
+    {
+      "rank": 6,
+      "title": "名偵探柯南 高速公路的墮天使",
+      "seats": 6450,
+      "attendance": 2084,
+      "rate": 32.31,
+      "d_minus_1": 218.22,
+      "d_minus_7": 49.77
+    },
+    {
+      "rank": 7,
+      "title": "玩具總動員5",
+      "seats": 6102,
+      "attendance": 1871,
+      "rate": 30.66,
+      "d_minus_1": 253.87,
+      "d_minus_7": 65.37
+    },
+    {
+      "rank": 8,
+      "title": "偶像學園!X星光樂園 THE MOVIE -相遇的奇蹟",
+      "seats": 2507,
+      "attendance": 1244,
+      "rate": 49.62,
+      "d_minus_1": 66.77,
+      "d_minus_7": null
+    },
+    {
+      "rank": 9,
+      "title": "ATEEZ : LIGHT THE WAY IN CINEMAS",
+      "seats": 2153,
+      "attendance": 1128,
+      "rate": 52.39,
+      "d_minus_1": 116.05,
+      "d_minus_7": null
+    },
+    {
+      "rank": 10,
+      "title": "小小兵&大怪獸",
+      "seats": 3563,
+      "attendance": 852,
+      "rate": 23.91,
+      "d_minus_1": 218.46,
+      "d_minus_7": 37.48
+    },
+    {
+      "rank": 11,
+      "title": "航海王劇場版：GOLD",
+      "seats": 2578,
+      "attendance": 800,
+      "rate": 31.03,
+      "d_minus_1": 206.72,
+      "d_minus_7": null
+    },
+    {
+      "rank": 12,
+      "title": "血鬼村",
+      "seats": 2927,
+      "attendance": 768,
+      "rate": 26.24,
+      "d_minus_1": 144.63,
+      "d_minus_7": null
+    },
+    {
+      "rank": 13,
+      "title": "電影哆啦A夢：新．大雄的海底鬼岩城",
+      "seats": 2355,
+      "attendance": 540,
+      "rate": 22.93,
+      "d_minus_1": 203.01,
+      "d_minus_7": 35.69
+    },
+    {
+      "rank": 14,
+      "title": "你的名字。",
+      "seats": 1096,
+      "attendance": 387,
+      "rate": 35.31,
+      "d_minus_1": 89.17,
+      "d_minus_7": 41.97
+    },
+    {
+      "rank": 15,
+      "title": "我未許願先吹蠟燭",
+      "seats": 527,
+      "attendance": 306,
+      "rate": 58.06,
+      "d_minus_1": 211.03,
+      "d_minus_7": null
+    },
+    {
+      "rank": 16,
+      "title": "空之境界劇場版：未來福音",
+      "seats": 1136,
+      "attendance": 239,
+      "rate": 21.04,
+      "d_minus_1": 141.42,
+      "d_minus_7": 40.58
+    },
+    {
+      "rank": 17,
+      "title": "日麗",
+      "seats": 775,
+      "attendance": 191,
+      "rate": 24.65,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 18,
+      "title": "明日的過客",
+      "seats": 1801,
+      "attendance": 93,
+      "rate": 5.16,
+      "d_minus_1": 117.72,
+      "d_minus_7": null
+    },
+    {
+      "rank": 19,
+      "title": "海洋奇緣 (真人版)",
+      "seats": 620,
+      "attendance": 90,
+      "rate": 14.52,
+      "d_minus_1": 163.64,
+      "d_minus_7": 14.2
+    },
+    {
+      "rank": 20,
+      "title": "魯冰花（數位修復版）",
+      "seats": 394,
+      "attendance": 76,
+      "rate": 19.29,
+      "d_minus_1": 690.91,
+      "d_minus_7": 42.7
+    },
+    {
+      "rank": 21,
+      "title": "巧虎電影　勇氣之歌",
+      "seats": 2314,
+      "attendance": 68,
+      "rate": 2.94,
+      "d_minus_1": 117.24,
+      "d_minus_7": 93.15
+    },
+    {
+      "rank": 22,
+      "title": "我們要回家",
+      "seats": 486,
+      "attendance": 62,
+      "rate": 12.76,
+      "d_minus_1": 144.19,
+      "d_minus_7": null
+    },
+    {
+      "rank": 23,
+      "title": "超越無限電影院",
+      "seats": 803,
+      "attendance": 56,
+      "rate": 6.97,
+      "d_minus_1": 101.82,
+      "d_minus_7": null
+    },
+    {
+      "rank": 24,
+      "title": "喵喵博物館",
+      "seats": 604,
+      "attendance": 32,
+      "rate": 5.3,
+      "d_minus_1": 213.33,
+      "d_minus_7": null
+    },
+    {
+      "rank": 25,
+      "title": "航海王劇場版：被詛咒的聖劍",
+      "seats": 522,
+      "attendance": 31,
+      "rate": 5.94,
+      "d_minus_1": 206.67,
+      "d_minus_7": 4.73
+    },
+    {
+      "rank": 26,
+      "title": "陰錯陽差愛上你",
+      "seats": 487,
+      "attendance": 26,
+      "rate": 5.34,
+      "d_minus_1": 59.09,
+      "d_minus_7": null
+    },
+    {
+      "rank": 27,
+      "title": "屍速禁區",
+      "seats": 38,
+      "attendance": 21,
+      "rate": 55.26,
+      "d_minus_1": null,
+      "d_minus_7": 55.26
+    },
+    {
+      "rank": 28,
+      "title": "後室",
+      "seats": 38,
+      "attendance": 13,
+      "rate": 34.21,
+      "d_minus_1": null,
+      "d_minus_7": 8.9
+    },
+    {
+      "rank": 29,
+      "title": "幸福的拉札洛",
+      "seats": 38,
+      "attendance": 10,
+      "rate": 26.32,
+      "d_minus_1": 76.92,
+      "d_minus_7": null
+    }
+  ],
+  "summary": {
+    "total_films": 29,
+    "total_seats": 224381,
+    "total_attendance": 106321,
+    "avg_rate": 47.38,
+    "top_film": "蜘蛛人：重生日",
+    "top_rate": 54.69
+  }
+}
