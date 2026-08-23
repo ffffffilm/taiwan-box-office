@@ -1,0 +1,410 @@
+{
+  "date": "2026-08-23",
+  "source": "MovieArena",
+  "films": [
+    {
+      "rank": 1,
+      "title": "蜘蛛人：重生日",
+      "seats": 49876,
+      "attendance": 18619,
+      "rate": 37.33,
+      "d_minus_1": 83.9,
+      "d_minus_7": 62.12
+    },
+    {
+      "rank": 2,
+      "title": "奧德賽",
+      "seats": 23366,
+      "attendance": 11896,
+      "rate": 50.91,
+      "d_minus_1": 87.7,
+      "d_minus_7": 82.0
+    },
+    {
+      "rank": 3,
+      "title": "愛你致死不渝",
+      "seats": 19837,
+      "attendance": 10025,
+      "rate": 50.54,
+      "d_minus_1": 91.63,
+      "d_minus_7": 128.23
+    },
+    {
+      "rank": 4,
+      "title": "劇場版 吉伊卡哇 人魚島的秘密",
+      "seats": 17578,
+      "attendance": 7397,
+      "rate": 42.08,
+      "d_minus_1": 85.43,
+      "d_minus_7": 68.11
+    },
+    {
+      "rank": 5,
+      "title": "玩命航線",
+      "seats": 23465,
+      "attendance": 5481,
+      "rate": 23.36,
+      "d_minus_1": 86.18,
+      "d_minus_7": null
+    },
+    {
+      "rank": 6,
+      "title": "汪汪隊立大功：恐龍大電影",
+      "seats": 10592,
+      "attendance": 4846,
+      "rate": 45.75,
+      "d_minus_1": 98.58,
+      "d_minus_7": 66.69
+    },
+    {
+      "rank": 7,
+      "title": "橡樹街末日",
+      "seats": 17918,
+      "attendance": 4096,
+      "rate": 22.86,
+      "d_minus_1": 83.42,
+      "d_minus_7": 39.1
+    },
+    {
+      "rank": 8,
+      "title": "電影蠟筆小新：奇奇怪怪！我的妖怪假期",
+      "seats": 7625,
+      "attendance": 3424,
+      "rate": 44.9,
+      "d_minus_1": 96.56,
+      "d_minus_7": 60.05
+    },
+    {
+      "rank": 9,
+      "title": "陰兒房：穿越陰深處",
+      "seats": 14577,
+      "attendance": 2561,
+      "rate": 17.57,
+      "d_minus_1": 85.08,
+      "d_minus_7": null
+    },
+    {
+      "rank": 10,
+      "title": "藍色監獄",
+      "seats": 3607,
+      "attendance": 1055,
+      "rate": 29.25,
+      "d_minus_1": 96.7,
+      "d_minus_7": 46.13
+    },
+    {
+      "rank": 11,
+      "title": "TOMORROW X TOGETHER VR CONCERT : ENDLESS",
+      "seats": 2288,
+      "attendance": 1035,
+      "rate": 45.24,
+      "d_minus_1": 78.35,
+      "d_minus_7": null
+    },
+    {
+      "rank": 12,
+      "title": "魔法少女小圓劇場版 [新篇] 叛逆的物語+五分鐘開頭影像",
+      "seats": 2397,
+      "attendance": 945,
+      "rate": 39.42,
+      "d_minus_1": 91.57,
+      "d_minus_7": null
+    },
+    {
+      "rank": 13,
+      "title": "野生狂廚",
+      "seats": 3446,
+      "attendance": 778,
+      "rate": 22.58,
+      "d_minus_1": 252.6,
+      "d_minus_7": null
+    },
+    {
+      "rank": 14,
+      "title": "名偵探柯南 高速公路的墮天使",
+      "seats": 1494,
+      "attendance": 724,
+      "rate": 48.46,
+      "d_minus_1": 108.71,
+      "d_minus_7": 52.81
+    },
+    {
+      "rank": 15,
+      "title": "偶像學園!X星光樂園 THE MOVIE -相遇的奇蹟",
+      "seats": 1659,
+      "attendance": 519,
+      "rate": 31.28,
+      "d_minus_1": 124.76,
+      "d_minus_7": 77.46
+    },
+    {
+      "rank": 16,
+      "title": "3SKM 1st LIVE “One-Off”現場直播",
+      "seats": 631,
+      "attendance": 516,
+      "rate": 81.77,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 17,
+      "title": "開放性邀請",
+      "seats": 1035,
+      "attendance": 500,
+      "rate": 48.31,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 18,
+      "title": "一夜限定",
+      "seats": 8175,
+      "attendance": 454,
+      "rate": 5.55,
+      "d_minus_1": 95.18,
+      "d_minus_7": null
+    },
+    {
+      "rank": 19,
+      "title": "電影 Idol光之美少女 你與我♪久等了！為你送上閃耀的現場演唱會！",
+      "seats": 4012,
+      "attendance": 389,
+      "rate": 9.7,
+      "d_minus_1": 88.81,
+      "d_minus_7": null
+    },
+    {
+      "rank": 20,
+      "title": "玩具總動員5",
+      "seats": 848,
+      "attendance": 368,
+      "rate": 43.4,
+      "d_minus_1": 92.0,
+      "d_minus_7": 51.47
+    },
+    {
+      "rank": 21,
+      "title": "我未許願先吹蠟燭",
+      "seats": 6218,
+      "attendance": 291,
+      "rate": 4.68,
+      "d_minus_1": 86.35,
+      "d_minus_7": 37.84
+    },
+    {
+      "rank": 22,
+      "title": "催眠麥克風",
+      "seats": 586,
+      "attendance": 271,
+      "rate": 46.25,
+      "d_minus_1": 62.3,
+      "d_minus_7": 43.08
+    },
+    {
+      "rank": 23,
+      "title": "電影哆啦A夢：新．大雄的海底鬼岩城",
+      "seats": 439,
+      "attendance": 257,
+      "rate": 58.54,
+      "d_minus_1": 133.85,
+      "d_minus_7": 66.24
+    },
+    {
+      "rank": 24,
+      "title": "航海王劇場版：機關城的鋼鐵巨兵",
+      "seats": 2440,
+      "attendance": 227,
+      "rate": 9.3,
+      "d_minus_1": 38.67,
+      "d_minus_7": null
+    },
+    {
+      "rank": 25,
+      "title": "劇場版 境界的彼方 -I’LL BE HERE- 過去篇",
+      "seats": 3435,
+      "attendance": 199,
+      "rate": 5.79,
+      "d_minus_1": 86.15,
+      "d_minus_7": null
+    },
+    {
+      "rank": 26,
+      "title": "OFFICIAL HIGE DANDISM LIVE at STADIUM 20",
+      "seats": 231,
+      "attendance": 149,
+      "rate": 64.5,
+      "d_minus_1": 163.74,
+      "d_minus_7": null
+    },
+    {
+      "rank": 27,
+      "title": "長尾豹歷險記",
+      "seats": 1513,
+      "attendance": 147,
+      "rate": 9.72,
+      "d_minus_1": 240.98,
+      "d_minus_7": null
+    },
+    {
+      "rank": 28,
+      "title": "魯冰花（數位修復版）",
+      "seats": 212,
+      "attendance": 136,
+      "rate": 64.15,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 29,
+      "title": "在世界的盡頭相遇",
+      "seats": 1449,
+      "attendance": 97,
+      "rate": 6.69,
+      "d_minus_1": 112.79,
+      "d_minus_7": null
+    },
+    {
+      "rank": 30,
+      "title": "LAST MAN ー全盲搜查官ー 劇場版",
+      "seats": 950,
+      "attendance": 94,
+      "rate": 9.89,
+      "d_minus_1": 58.39,
+      "d_minus_7": null
+    },
+    {
+      "rank": 31,
+      "title": "你的名字。",
+      "seats": 385,
+      "attendance": 85,
+      "rate": 22.08,
+      "d_minus_1": 531.25,
+      "d_minus_7": 28.52
+    },
+    {
+      "rank": 32,
+      "title": "愛重奏",
+      "seats": 397,
+      "attendance": 68,
+      "rate": 17.13,
+      "d_minus_1": 309.09,
+      "d_minus_7": null
+    },
+    {
+      "rank": 33,
+      "title": "巧虎電影　勇氣之歌",
+      "seats": 1793,
+      "attendance": 65,
+      "rate": 3.63,
+      "d_minus_1": 84.42,
+      "d_minus_7": 138.3
+    },
+    {
+      "rank": 34,
+      "title": "一個部門的誕生",
+      "seats": 1984,
+      "attendance": 61,
+      "rate": 3.07,
+      "d_minus_1": 96.83,
+      "d_minus_7": null
+    },
+    {
+      "rank": 35,
+      "title": "特務搞飛機2",
+      "seats": 1096,
+      "attendance": 53,
+      "rate": 4.84,
+      "d_minus_1": 252.38,
+      "d_minus_7": 6.11
+    },
+    {
+      "rank": 36,
+      "title": "航海王劇場版：奪寶爭霸戰",
+      "seats": 316,
+      "attendance": 45,
+      "rate": 14.24,
+      "d_minus_1": 112.5,
+      "d_minus_7": 8.36
+    },
+    {
+      "rank": 37,
+      "title": "18顆鑽石",
+      "seats": 792,
+      "attendance": 45,
+      "rate": 5.68,
+      "d_minus_1": 76.27,
+      "d_minus_7": null
+    },
+    {
+      "rank": 38,
+      "title": "父親回來的那一天",
+      "seats": 578,
+      "attendance": 40,
+      "rate": 6.92,
+      "d_minus_1": 133.33,
+      "d_minus_7": null
+    },
+    {
+      "rank": 39,
+      "title": "喵喵博物館2：埃及寶藏",
+      "seats": 124,
+      "attendance": 39,
+      "rate": 31.45,
+      "d_minus_1": null,
+      "d_minus_7": 13.59
+    },
+    {
+      "rank": 40,
+      "title": "小小兵&大怪獸",
+      "seats": 55,
+      "attendance": 37,
+      "rate": 67.27,
+      "d_minus_1": 59.68,
+      "d_minus_7": 8.17
+    },
+    {
+      "rank": 41,
+      "title": "愛的魔樣",
+      "seats": 230,
+      "attendance": 36,
+      "rate": 15.65,
+      "d_minus_1": 64.29,
+      "d_minus_7": 11.8
+    },
+    {
+      "rank": 42,
+      "title": "血鬼村",
+      "seats": 119,
+      "attendance": 31,
+      "rate": 26.05,
+      "d_minus_1": null,
+      "d_minus_7": 17.92
+    },
+    {
+      "rank": 43,
+      "title": "終戰那一天",
+      "seats": 174,
+      "attendance": 23,
+      "rate": 13.22,
+      "d_minus_1": 28.05,
+      "d_minus_7": 9.27
+    },
+    {
+      "rank": 44,
+      "title": "空之境界劇場版：未來福音",
+      "seats": 46,
+      "attendance": 11,
+      "rate": 23.91,
+      "d_minus_1": null,
+      "d_minus_7": 39.29
+    }
+  ],
+  "summary": {
+    "total_films": 44,
+    "total_seats": 239988,
+    "total_attendance": 78135,
+    "avg_rate": 32.56,
+    "top_film": "蜘蛛人：重生日",
+    "top_rate": 37.33
+  }
+}
