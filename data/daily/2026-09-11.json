@@ -1,0 +1,401 @@
+{
+  "date": "2026-09-11",
+  "source": "MovieArena",
+  "films": [
+    {
+      "rank": 1,
+      "title": "劇場版 魔法少女小圓 〈瓦爾普吉斯的迴天〉",
+      "seats": 19101,
+      "attendance": 3976,
+      "rate": 20.82,
+      "d_minus_1": 340.41,
+      "d_minus_7": 52.99
+    },
+    {
+      "rank": 2,
+      "title": "網紅老爸",
+      "seats": 18923,
+      "attendance": 2865,
+      "rate": 15.14,
+      "d_minus_1": 130.35,
+      "d_minus_7": 60.21
+    },
+    {
+      "rank": 3,
+      "title": "奧德賽",
+      "seats": 14638,
+      "attendance": 2611,
+      "rate": 17.84,
+      "d_minus_1": 158.43,
+      "d_minus_7": 82.78
+    },
+    {
+      "rank": 4,
+      "title": "愛你致死不渝",
+      "seats": 14705,
+      "attendance": 2541,
+      "rate": 17.28,
+      "d_minus_1": 146.12,
+      "d_minus_7": 67.19
+    },
+    {
+      "rank": 5,
+      "title": "劇場版 吉伊卡哇 人魚島的秘密",
+      "seats": 13897,
+      "attendance": 2529,
+      "rate": 18.2,
+      "d_minus_1": 324.23,
+      "d_minus_7": 133.53
+    },
+    {
+      "rank": 6,
+      "title": "蜘蛛人：重生日",
+      "seats": 18271,
+      "attendance": 2418,
+      "rate": 13.23,
+      "d_minus_1": 149.91,
+      "d_minus_7": 65.98
+    },
+    {
+      "rank": 7,
+      "title": "粽邪 4：坤蒂拉娜",
+      "seats": 12991,
+      "attendance": 2265,
+      "rate": 17.44,
+      "d_minus_1": 163.18,
+      "d_minus_7": 63.77
+    },
+    {
+      "rank": 8,
+      "title": "驀然回首",
+      "seats": 14180,
+      "attendance": 1743,
+      "rate": 12.29,
+      "d_minus_1": 1570.27,
+      "d_minus_7": 581.0
+    },
+    {
+      "rank": 9,
+      "title": "希望：末日血戰",
+      "seats": 13465,
+      "attendance": 1456,
+      "rate": 10.81,
+      "d_minus_1": 82.87,
+      "d_minus_7": 28.61
+    },
+    {
+      "rank": 10,
+      "title": "怎麼可能我家的祖先是你家的鬼",
+      "seats": 21003,
+      "attendance": 1414,
+      "rate": 6.73,
+      "d_minus_1": null,
+      "d_minus_7": 499.65
+    },
+    {
+      "rank": 11,
+      "title": "超異能快感：魔法之書",
+      "seats": 10310,
+      "attendance": 834,
+      "rate": 8.09,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 12,
+      "title": "墜2",
+      "seats": 4421,
+      "attendance": 550,
+      "rate": 12.44,
+      "d_minus_1": 70.06,
+      "d_minus_7": 37.14
+    },
+    {
+      "rank": 13,
+      "title": "慶州殺遊紀",
+      "seats": 5848,
+      "attendance": 443,
+      "rate": 7.58,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 14,
+      "title": "航海王劇場版：Z",
+      "seats": 2921,
+      "attendance": 411,
+      "rate": 14.07,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 15,
+      "title": "名偵探柯南 高速公路的墮天使",
+      "seats": 1612,
+      "attendance": 374,
+      "rate": 23.2,
+      "d_minus_1": 733.33,
+      "d_minus_7": 593.65
+    },
+    {
+      "rank": 16,
+      "title": "鬼附體",
+      "seats": 5266,
+      "attendance": 358,
+      "rate": 6.8,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 17,
+      "title": "大仙尪仔",
+      "seats": 6041,
+      "attendance": 315,
+      "rate": 5.21,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 18,
+      "title": "玩命航線",
+      "seats": 1709,
+      "attendance": 199,
+      "rate": 11.64,
+      "d_minus_1": 96.6,
+      "d_minus_7": 32.62
+    },
+    {
+      "rank": 19,
+      "title": "汪汪隊立大功：恐龍大電影",
+      "seats": 4039,
+      "attendance": 195,
+      "rate": 4.83,
+      "d_minus_1": 130.87,
+      "d_minus_7": 70.14
+    },
+    {
+      "rank": 20,
+      "title": "電影蠟筆小新：奇奇怪怪！我的妖怪假期",
+      "seats": 2104,
+      "attendance": 119,
+      "rate": 5.66,
+      "d_minus_1": 92.25,
+      "d_minus_7": 42.05
+    },
+    {
+      "rank": 21,
+      "title": "超時空甩尾 經典重映",
+      "seats": 1010,
+      "attendance": 111,
+      "rate": 10.99,
+      "d_minus_1": 94.07,
+      "d_minus_7": 48.68
+    },
+    {
+      "rank": 22,
+      "title": "電影哆啦A夢：新．大雄的海底鬼岩城",
+      "seats": 880,
+      "attendance": 105,
+      "rate": 11.93,
+      "d_minus_1": 1312.5,
+      "d_minus_7": 477.27
+    },
+    {
+      "rank": 23,
+      "title": "天鵝與蝙蝠",
+      "seats": 961,
+      "attendance": 88,
+      "rate": 9.16,
+      "d_minus_1": 44.44,
+      "d_minus_7": 26.75
+    },
+    {
+      "rank": 24,
+      "title": "橡樹街末日",
+      "seats": 1257,
+      "attendance": 83,
+      "rate": 6.6,
+      "d_minus_1": 64.84,
+      "d_minus_7": 30.4
+    },
+    {
+      "rank": 25,
+      "title": "颱風俱樂部 4K修復版",
+      "seats": 520,
+      "attendance": 72,
+      "rate": 13.85,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 26,
+      "title": "攻殼機動隊(1995) 4K 數位修復版",
+      "seats": 1020,
+      "attendance": 70,
+      "rate": 6.86,
+      "d_minus_1": 46.05,
+      "d_minus_7": 24.73
+    },
+    {
+      "rank": 27,
+      "title": "被偷走的情歌",
+      "seats": 1065,
+      "attendance": 66,
+      "rate": 6.2,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 28,
+      "title": "草間∞彌生",
+      "seats": 598,
+      "attendance": 66,
+      "rate": 11.04,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 29,
+      "title": "藍色監獄",
+      "seats": 621,
+      "attendance": 53,
+      "rate": 8.53,
+      "d_minus_1": 60.92,
+      "d_minus_7": 55.79
+    },
+    {
+      "rank": 30,
+      "title": "大起義",
+      "seats": 770,
+      "attendance": 51,
+      "rate": 6.62,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 31,
+      "title": "超拖樂團之我要幹大事啦！",
+      "seats": 278,
+      "attendance": 44,
+      "rate": 15.83,
+      "d_minus_1": 125.71,
+      "d_minus_7": 33.08
+    },
+    {
+      "rank": 32,
+      "title": "航海王劇場版：祭典男爵與神祕島",
+      "seats": 571,
+      "attendance": 34,
+      "rate": 5.95,
+      "d_minus_1": 30.63,
+      "d_minus_7": 13.88
+    },
+    {
+      "rank": 33,
+      "title": "寂地",
+      "seats": 596,
+      "attendance": 30,
+      "rate": 5.03,
+      "d_minus_1": 17.44,
+      "d_minus_7": 10.34
+    },
+    {
+      "rank": 34,
+      "title": "超人力霸王．起源",
+      "seats": 516,
+      "attendance": 28,
+      "rate": 5.43,
+      "d_minus_1": 28.28,
+      "d_minus_7": 10.73
+    },
+    {
+      "rank": 35,
+      "title": "最終樂章 吹響吧！上低音號 前篇",
+      "seats": 342,
+      "attendance": 23,
+      "rate": 6.73,
+      "d_minus_1": 45.1,
+      "d_minus_7": 25.27
+    },
+    {
+      "rank": 36,
+      "title": "世界上最爛的人",
+      "seats": 378,
+      "attendance": 18,
+      "rate": 4.76,
+      "d_minus_1": 48.65,
+      "d_minus_7": 16.22
+    },
+    {
+      "rank": 37,
+      "title": "陰兒房：穿越陰深處",
+      "seats": 119,
+      "attendance": 14,
+      "rate": 11.76,
+      "d_minus_1": 20.0,
+      "d_minus_7": 5.96
+    },
+    {
+      "rank": 38,
+      "title": "我的爸爸是死刑犯",
+      "seats": 275,
+      "attendance": 12,
+      "rate": 4.36,
+      "d_minus_1": 16.0,
+      "d_minus_7": 16.9
+    },
+    {
+      "rank": 39,
+      "title": "開放性邀請",
+      "seats": 174,
+      "attendance": 8,
+      "rate": 4.6,
+      "d_minus_1": 28.57,
+      "d_minus_7": 9.88
+    },
+    {
+      "rank": 40,
+      "title": "電影 Idol光之美少女 你與我♪久等了！為你送上閃耀的現場演唱會！",
+      "seats": 248,
+      "attendance": 7,
+      "rate": 2.82,
+      "d_minus_1": 53.85,
+      "d_minus_7": 7.14
+    },
+    {
+      "rank": 41,
+      "title": "八月三十一日我在奧斯陸",
+      "seats": 174,
+      "attendance": 7,
+      "rate": 4.02,
+      "d_minus_1": null,
+      "d_minus_7": 70.0
+    },
+    {
+      "rank": 42,
+      "title": "炎上",
+      "seats": 75,
+      "attendance": 5,
+      "rate": 6.67,
+      "d_minus_1": 125.0,
+      "d_minus_7": 62.5
+    },
+    {
+      "rank": 43,
+      "title": "你的名字。",
+      "seats": 37,
+      "attendance": 3,
+      "rate": 8.11,
+      "d_minus_1": 75.0,
+      "d_minus_7": 16.67
+    }
+  ],
+  "summary": {
+    "total_films": 43,
+    "total_seats": 217930,
+    "total_attendance": 28614,
+    "avg_rate": 13.13,
+    "top_film": "劇場版 魔法少女小圓 〈瓦爾普吉斯的迴天〉",
+    "top_rate": 20.82
+  }
+}
