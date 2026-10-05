@@ -1,0 +1,455 @@
+{
+  "date": "2026-10-05",
+  "source": "MovieArena",
+  "films": [
+    {
+      "rank": 1,
+      "title": "惡靈古堡：爆發夜",
+      "seats": 34997,
+      "attendance": 3745,
+      "rate": 10.7,
+      "d_minus_1": 46.63,
+      "d_minus_7": 35.67
+    },
+    {
+      "rank": 2,
+      "title": "挖掘者",
+      "seats": 33377,
+      "attendance": 2044,
+      "rate": 6.12,
+      "d_minus_1": 63.78,
+      "d_minus_7": null
+    },
+    {
+      "rank": 3,
+      "title": "野獸之心",
+      "seats": 18248,
+      "attendance": 1614,
+      "rate": 8.84,
+      "d_minus_1": 49.33,
+      "d_minus_7": 31.06
+    },
+    {
+      "rank": 4,
+      "title": "復仇者聯盟：終局之戰 加碼重映",
+      "seats": 16909,
+      "attendance": 1107,
+      "rate": 6.55,
+      "d_minus_1": 57.75,
+      "d_minus_7": 23.44
+    },
+    {
+      "rank": 5,
+      "title": "蜘蛛人：重生日",
+      "seats": 7971,
+      "attendance": 831,
+      "rate": 10.43,
+      "d_minus_1": 32.76,
+      "d_minus_7": 25.74
+    },
+    {
+      "rank": 6,
+      "title": "劇場版 魔法少女小圓 〈瓦爾普吉斯的迴天〉",
+      "seats": 5485,
+      "attendance": 521,
+      "rate": 9.5,
+      "d_minus_1": 83.09,
+      "d_minus_7": 46.89
+    },
+    {
+      "rank": 7,
+      "title": "奧德賽",
+      "seats": 6026,
+      "attendance": 489,
+      "rate": 8.11,
+      "d_minus_1": 43.97,
+      "d_minus_7": 26.66
+    },
+    {
+      "rank": 8,
+      "title": "愛你致死不渝",
+      "seats": 7743,
+      "attendance": 474,
+      "rate": 6.12,
+      "d_minus_1": 48.02,
+      "d_minus_7": 25.32
+    },
+    {
+      "rank": 9,
+      "title": "網紅老爸",
+      "seats": 5573,
+      "attendance": 415,
+      "rate": 7.45,
+      "d_minus_1": 42.48,
+      "d_minus_7": 21.27
+    },
+    {
+      "rank": 10,
+      "title": "粽邪 4：坤蒂拉娜",
+      "seats": 4716,
+      "attendance": 390,
+      "rate": 8.27,
+      "d_minus_1": 62.2,
+      "d_minus_7": 32.97
+    },
+    {
+      "rank": 11,
+      "title": "實境誘捕",
+      "seats": 4698,
+      "attendance": 373,
+      "rate": 7.94,
+      "d_minus_1": 66.37,
+      "d_minus_7": 50.07
+    },
+    {
+      "rank": 12,
+      "title": "劇場版 吉伊卡哇 人魚島的秘密",
+      "seats": 5897,
+      "attendance": 351,
+      "rate": 5.95,
+      "d_minus_1": 41.2,
+      "d_minus_7": 17.01
+    },
+    {
+      "rank": 13,
+      "title": "復活男",
+      "seats": 3775,
+      "attendance": 329,
+      "rate": 8.72,
+      "d_minus_1": 51.17,
+      "d_minus_7": null
+    },
+    {
+      "rank": 14,
+      "title": "神鬼劫案2：偷天換日",
+      "seats": 4737,
+      "attendance": 323,
+      "rate": 6.82,
+      "d_minus_1": 80.35,
+      "d_minus_7": null
+    },
+    {
+      "rank": 15,
+      "title": "特種快遞",
+      "seats": 4033,
+      "attendance": 268,
+      "rate": 6.65,
+      "d_minus_1": 77.46,
+      "d_minus_7": 24.36
+    },
+    {
+      "rank": 16,
+      "title": "誤闖遺忘島",
+      "seats": 4885,
+      "attendance": 265,
+      "rate": 5.42,
+      "d_minus_1": 37.01,
+      "d_minus_7": 19.97
+    },
+    {
+      "rank": 17,
+      "title": "LINKIN PARK : UNSHATTER",
+      "seats": 2233,
+      "attendance": 246,
+      "rate": 11.02,
+      "d_minus_1": 71.72,
+      "d_minus_7": null
+    },
+    {
+      "rank": 18,
+      "title": "劇場版 鋼之鍊金術師 香巴拉的征服者",
+      "seats": 1432,
+      "attendance": 214,
+      "rate": 14.94,
+      "d_minus_1": 104.39,
+      "d_minus_7": 60.8
+    },
+    {
+      "rank": 19,
+      "title": "驀然回首",
+      "seats": 1933,
+      "attendance": 179,
+      "rate": 9.26,
+      "d_minus_1": 50.14,
+      "d_minus_7": 26.76
+    },
+    {
+      "rank": 20,
+      "title": "鬼6咒",
+      "seats": 2789,
+      "attendance": 175,
+      "rate": 6.27,
+      "d_minus_1": 55.73,
+      "d_minus_7": null
+    },
+    {
+      "rank": 21,
+      "title": "LOVE LIVE! 蓮之空女學院學園偶像俱樂部BLOOM GARDEN PAR",
+      "seats": 1825,
+      "attendance": 168,
+      "rate": 9.21,
+      "d_minus_1": 75.0,
+      "d_minus_7": 55.45
+    },
+    {
+      "rank": 22,
+      "title": "怎麼可能我家的祖先是你家的鬼",
+      "seats": 2474,
+      "attendance": 133,
+      "rate": 5.38,
+      "d_minus_1": 45.39,
+      "d_minus_7": 17.69
+    },
+    {
+      "rank": 23,
+      "title": "我們不是什麼",
+      "seats": 2737,
+      "attendance": 132,
+      "rate": 4.82,
+      "d_minus_1": 86.27,
+      "d_minus_7": null
+    },
+    {
+      "rank": 24,
+      "title": "人吶，為什麼要跑步？",
+      "seats": 2830,
+      "attendance": 123,
+      "rate": 4.35,
+      "d_minus_1": 55.66,
+      "d_minus_7": null
+    },
+    {
+      "rank": 25,
+      "title": "遠離祖靈的孩子",
+      "seats": 2488,
+      "attendance": 92,
+      "rate": 3.7,
+      "d_minus_1": 94.85,
+      "d_minus_7": null
+    },
+    {
+      "rank": 26,
+      "title": "藍色監獄",
+      "seats": 602,
+      "attendance": 86,
+      "rate": 14.29,
+      "d_minus_1": 36.29,
+      "d_minus_7": 373.91
+    },
+    {
+      "rank": 27,
+      "title": "青春電幻物語：數位修復版",
+      "seats": 648,
+      "attendance": 85,
+      "rate": 13.12,
+      "d_minus_1": 95.51,
+      "d_minus_7": 44.97
+    },
+    {
+      "rank": 28,
+      "title": "反對普丁的無名先生",
+      "seats": 653,
+      "attendance": 63,
+      "rate": 9.65,
+      "d_minus_1": 86.3,
+      "d_minus_7": null
+    },
+    {
+      "rank": 29,
+      "title": "航海王劇場版：喬巴身世之謎~冬季綻放、奇跡的櫻花",
+      "seats": 1176,
+      "attendance": 52,
+      "rate": 4.42,
+      "d_minus_1": 91.23,
+      "d_minus_7": 21.58
+    },
+    {
+      "rank": 30,
+      "title": "夢想出擊",
+      "seats": 604,
+      "attendance": 50,
+      "rate": 8.28,
+      "d_minus_1": 60.98,
+      "d_minus_7": 26.18
+    },
+    {
+      "rank": 31,
+      "title": "電影蠟筆小新：奇奇怪怪！我的妖怪假期",
+      "seats": 780,
+      "attendance": 48,
+      "rate": 6.15,
+      "d_minus_1": 17.91,
+      "d_minus_7": 12.15
+    },
+    {
+      "rank": 32,
+      "title": "花神咖啡館",
+      "seats": 618,
+      "attendance": 47,
+      "rate": 7.61,
+      "d_minus_1": 72.31,
+      "d_minus_7": null
+    },
+    {
+      "rank": 33,
+      "title": "PERFUME “COLD SLEEP” -25 YEARS DOCUMENT",
+      "seats": 165,
+      "attendance": 43,
+      "rate": 26.06,
+      "d_minus_1": 49.43,
+      "d_minus_7": 30.94
+    },
+    {
+      "rank": 34,
+      "title": "猛鬼大學：4不瞑目",
+      "seats": 769,
+      "attendance": 37,
+      "rate": 4.81,
+      "d_minus_1": 123.33,
+      "d_minus_7": 18.23
+    },
+    {
+      "rank": 35,
+      "title": "希望：末日血戰",
+      "seats": 399,
+      "attendance": 37,
+      "rate": 9.27,
+      "d_minus_1": 86.05,
+      "d_minus_7": 23.57
+    },
+    {
+      "rank": 36,
+      "title": "與畢諾許共舞",
+      "seats": 821,
+      "attendance": 34,
+      "rate": 4.14,
+      "d_minus_1": 94.44,
+      "d_minus_7": null
+    },
+    {
+      "rank": 37,
+      "title": "汪汪隊立大功：恐龍大電影",
+      "seats": 866,
+      "attendance": 33,
+      "rate": 3.81,
+      "d_minus_1": 14.22,
+      "d_minus_7": 6.76
+    },
+    {
+      "rank": 38,
+      "title": "懺悔",
+      "seats": 474,
+      "attendance": 27,
+      "rate": 5.7,
+      "d_minus_1": 40.3,
+      "d_minus_7": 11.34
+    },
+    {
+      "rank": 39,
+      "title": "名偵探柯南 高速公路的墮天使",
+      "seats": 381,
+      "attendance": 22,
+      "rate": 5.77,
+      "d_minus_1": 36.67,
+      "d_minus_7": 22.45
+    },
+    {
+      "rank": 40,
+      "title": "黑牢城",
+      "seats": 468,
+      "attendance": 15,
+      "rate": 3.21,
+      "d_minus_1": 50.0,
+      "d_minus_7": 10.14
+    },
+    {
+      "rank": 41,
+      "title": "臥底情劫",
+      "seats": 174,
+      "attendance": 9,
+      "rate": 5.17,
+      "d_minus_1": null,
+      "d_minus_7": 52.94
+    },
+    {
+      "rank": 42,
+      "title": "墜2",
+      "seats": 195,
+      "attendance": 8,
+      "rate": 4.1,
+      "d_minus_1": 53.33,
+      "d_minus_7": 32.0
+    },
+    {
+      "rank": 43,
+      "title": "最終樂章 吹響吧！上低音號 前篇",
+      "seats": 174,
+      "attendance": 8,
+      "rate": 4.6,
+      "d_minus_1": 57.14,
+      "d_minus_7": 19.51
+    },
+    {
+      "rank": 44,
+      "title": "LOVE ≠ COMEDY",
+      "seats": 174,
+      "attendance": 6,
+      "rate": 3.45,
+      "d_minus_1": null,
+      "d_minus_7": 85.71
+    },
+    {
+      "rank": 45,
+      "title": "怎麼不去死",
+      "seats": 70,
+      "attendance": 4,
+      "rate": 5.71,
+      "d_minus_1": null,
+      "d_minus_7": 66.67
+    },
+    {
+      "rank": 46,
+      "title": "大仙尪仔",
+      "seats": 38,
+      "attendance": 4,
+      "rate": 10.53,
+      "d_minus_1": 66.67,
+      "d_minus_7": 5.88
+    },
+    {
+      "rank": 47,
+      "title": "成人童話",
+      "seats": 44,
+      "attendance": 4,
+      "rate": 9.09,
+      "d_minus_1": 33.33,
+      "d_minus_7": 3.77
+    },
+    {
+      "rank": 48,
+      "title": "電影哆啦A夢：新．大雄的海底鬼岩城",
+      "seats": 77,
+      "attendance": 4,
+      "rate": 5.19,
+      "d_minus_1": 11.11,
+      "d_minus_7": 5.97
+    },
+    {
+      "rank": 49,
+      "title": "5秒生成完美犯罪",
+      "seats": 210,
+      "attendance": 4,
+      "rate": 1.9,
+      "d_minus_1": 133.33,
+      "d_minus_7": 4.6
+    }
+  ],
+  "summary": {
+    "total_films": 49,
+    "total_seats": 200391,
+    "total_attendance": 15731,
+    "avg_rate": 7.85,
+    "top_film": "惡靈古堡：爆發夜",
+    "top_rate": 10.7
+  }
+}
