@@ -1,0 +1,428 @@
+{
+  "date": "2026-11-18",
+  "source": "MovieArena",
+  "films": [
+    {
+      "rank": 1,
+      "title": "哥吉拉-0.0",
+      "seats": 19945,
+      "attendance": 1887,
+      "rate": 9.46,
+      "d_minus_1": null,
+      "d_minus_7": 30.43
+    },
+    {
+      "rank": 2,
+      "title": "名偵探柯南 第30號殺人事件",
+      "seats": 13385,
+      "attendance": 936,
+      "rate": 6.99,
+      "d_minus_1": null,
+      "d_minus_7": 42.55
+    },
+    {
+      "rank": 3,
+      "title": "泥面人",
+      "seats": 4929,
+      "attendance": 584,
+      "rate": 11.85,
+      "d_minus_1": null,
+      "d_minus_7": 45.24
+    },
+    {
+      "rank": 4,
+      "title": "青春豬頭少年不會夢到親愛好朋友",
+      "seats": 3953,
+      "attendance": 553,
+      "rate": 13.99,
+      "d_minus_1": null,
+      "d_minus_7": 73.25
+    },
+    {
+      "rank": 5,
+      "title": "聖誕驚奇夜",
+      "seats": 7245,
+      "attendance": 495,
+      "rate": 6.83,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 6,
+      "title": "搶銀行先修班",
+      "seats": 6660,
+      "attendance": 331,
+      "rate": 4.97,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 7,
+      "title": "劇場版《魔法科高中的劣等生 四葉繼承篇》",
+      "seats": 3338,
+      "attendance": 313,
+      "rate": 9.38,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 8,
+      "title": "劇場版 「BANG DREAM! AVE MUJICA PRIMA AURORA",
+      "seats": 2473,
+      "attendance": 269,
+      "rate": 10.88,
+      "d_minus_1": null,
+      "d_minus_7": 70.05
+    },
+    {
+      "rank": 9,
+      "title": "致遙不可及彼方的你",
+      "seats": 1893,
+      "attendance": 226,
+      "rate": 11.94,
+      "d_minus_1": null,
+      "d_minus_7": 41.17
+    },
+    {
+      "rank": 10,
+      "title": "來自深淵 深沉靈魂的黎明",
+      "seats": 575,
+      "attendance": 215,
+      "rate": 37.39,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 11,
+      "title": "沙丘：第二部(重映版)",
+      "seats": 2919,
+      "attendance": 209,
+      "rate": 7.16,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 12,
+      "title": "讓子彈飛",
+      "seats": 1345,
+      "attendance": 199,
+      "rate": 14.8,
+      "d_minus_1": null,
+      "d_minus_7": 35.86
+    },
+    {
+      "rank": 13,
+      "title": "鬼聲泣0",
+      "seats": 2869,
+      "attendance": 165,
+      "rate": 5.75,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 14,
+      "title": "宛如星辰的你",
+      "seats": 1837,
+      "attendance": 150,
+      "rate": 8.17,
+      "d_minus_1": null,
+      "d_minus_7": 43.35
+    },
+    {
+      "rank": 15,
+      "title": "有用的人",
+      "seats": 3117,
+      "attendance": 137,
+      "rate": 4.4,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 16,
+      "title": "出賣影子的女人",
+      "seats": 305,
+      "attendance": 131,
+      "rate": 42.95,
+      "d_minus_1": null,
+      "d_minus_7": 79.39
+    },
+    {
+      "rank": 17,
+      "title": "沙丘(重映版)",
+      "seats": 2090,
+      "attendance": 115,
+      "rate": 5.5,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 18,
+      "title": "同級生：十週年重映",
+      "seats": 1659,
+      "attendance": 109,
+      "rate": 6.57,
+      "d_minus_1": null,
+      "d_minus_7": 36.82
+    },
+    {
+      "rank": 19,
+      "title": "消失的金鳳娜",
+      "seats": 1860,
+      "attendance": 108,
+      "rate": 5.81,
+      "d_minus_1": null,
+      "d_minus_7": 22.27
+    },
+    {
+      "rank": 20,
+      "title": "世紀初戀 楊麗花",
+      "seats": 831,
+      "attendance": 105,
+      "rate": 12.64,
+      "d_minus_1": null,
+      "d_minus_7": 31.07
+    },
+    {
+      "rank": 21,
+      "title": "六個說謊的大學生",
+      "seats": 1414,
+      "attendance": 104,
+      "rate": 7.36,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 22,
+      "title": "樂園追放",
+      "seats": 496,
+      "attendance": 99,
+      "rate": 19.96,
+      "d_minus_1": null,
+      "d_minus_7": 29.82
+    },
+    {
+      "rank": 23,
+      "title": "與達賴喇嘛談心：尋找幸福的智慧",
+      "seats": 194,
+      "attendance": 82,
+      "rate": 42.27,
+      "d_minus_1": null,
+      "d_minus_7": 15.65
+    },
+    {
+      "rank": 24,
+      "title": "黑潮",
+      "seats": 917,
+      "attendance": 82,
+      "rate": 8.94,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 25,
+      "title": "告別的年代",
+      "seats": 2152,
+      "attendance": 71,
+      "rate": 3.3,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 26,
+      "title": "三個傻瓜",
+      "seats": 1339,
+      "attendance": 68,
+      "rate": 5.08,
+      "d_minus_1": null,
+      "d_minus_7": 26.88
+    },
+    {
+      "rank": 27,
+      "title": "即刻狂飆",
+      "seats": 858,
+      "attendance": 67,
+      "rate": 7.81,
+      "d_minus_1": null,
+      "d_minus_7": 19.53
+    },
+    {
+      "rank": 28,
+      "title": "惡靈古堡：爆發夜",
+      "seats": 1181,
+      "attendance": 63,
+      "rate": 5.33,
+      "d_minus_1": null,
+      "d_minus_7": 16.94
+    },
+    {
+      "rank": 29,
+      "title": "我們，巴黎管弦樂團",
+      "seats": 427,
+      "attendance": 47,
+      "rate": 11.01,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 30,
+      "title": "高校人形金字塔",
+      "seats": 993,
+      "attendance": 42,
+      "rate": 4.23,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 31,
+      "title": "蕭邦！蕭邦！",
+      "seats": 468,
+      "attendance": 39,
+      "rate": 8.33,
+      "d_minus_1": null,
+      "d_minus_7": 37.14
+    },
+    {
+      "rank": 32,
+      "title": "雞智逃亡生活",
+      "seats": 447,
+      "attendance": 34,
+      "rate": 7.61,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 33,
+      "title": "跟我一起玩吧？",
+      "seats": 523,
+      "attendance": 31,
+      "rate": 5.93,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 34,
+      "title": "另一個媽咪",
+      "seats": 577,
+      "attendance": 23,
+      "rate": 3.99,
+      "d_minus_1": null,
+      "d_minus_7": 12.5
+    },
+    {
+      "rank": 35,
+      "title": "角落小夥伴電影版：從天而降的雲之冒險",
+      "seats": 908,
+      "attendance": 22,
+      "rate": 2.42,
+      "d_minus_1": null,
+      "d_minus_7": 73.33
+    },
+    {
+      "rank": 36,
+      "title": "JIM QUEEN : 肌情四射",
+      "seats": 148,
+      "attendance": 21,
+      "rate": 14.19,
+      "d_minus_1": null,
+      "d_minus_7": 8.64
+    },
+    {
+      "rank": 37,
+      "title": "放送禁止：一夫三妻",
+      "seats": 294,
+      "attendance": 19,
+      "rate": 6.46,
+      "d_minus_1": null,
+      "d_minus_7": null
+    },
+    {
+      "rank": 38,
+      "title": "歡迎來到朵莉之家",
+      "seats": 500,
+      "attendance": 15,
+      "rate": 3.0,
+      "d_minus_1": null,
+      "d_minus_7": 11.9
+    },
+    {
+      "rank": 39,
+      "title": "麵包超人電影版：潘坦與約定之星",
+      "seats": 376,
+      "attendance": 12,
+      "rate": 3.19,
+      "d_minus_1": null,
+      "d_minus_7": 34.29
+    },
+    {
+      "rank": 40,
+      "title": "老千：惡魔之歌",
+      "seats": 127,
+      "attendance": 9,
+      "rate": 7.09,
+      "d_minus_1": null,
+      "d_minus_7": 10.34
+    },
+    {
+      "rank": 41,
+      "title": "追蹤者遊戲W 水魚交融 見面場",
+      "seats": 75,
+      "attendance": 7,
+      "rate": 9.33,
+      "d_minus_1": null,
+      "d_minus_7": 17.95
+    },
+    {
+      "rank": 42,
+      "title": "進擊的鼓手 4K重映",
+      "seats": 76,
+      "attendance": 7,
+      "rate": 9.21,
+      "d_minus_1": null,
+      "d_minus_7": 14.58
+    },
+    {
+      "rank": 43,
+      "title": "野獸之心",
+      "seats": 127,
+      "attendance": 6,
+      "rate": 4.72,
+      "d_minus_1": null,
+      "d_minus_7": 5.83
+    },
+    {
+      "rank": 44,
+      "title": "挖掘者",
+      "seats": 134,
+      "attendance": 6,
+      "rate": 4.48,
+      "d_minus_1": null,
+      "d_minus_7": 7.69
+    },
+    {
+      "rank": 45,
+      "title": "金三角 孤軍淚",
+      "seats": 74,
+      "attendance": 5,
+      "rate": 6.76,
+      "d_minus_1": null,
+      "d_minus_7": 125.0
+    },
+    {
+      "rank": 46,
+      "title": "名偵探柯南 高速公路的墮天使",
+      "seats": 78,
+      "attendance": 3,
+      "rate": 3.85,
+      "d_minus_1": null,
+      "d_minus_7": 100.0
+    }
+  ],
+  "summary": {
+    "total_films": 46,
+    "total_seats": 98131,
+    "total_attendance": 8221,
+    "avg_rate": 8.38,
+    "top_film": "哥吉拉-0.0",
+    "top_rate": 9.46
+  }
+}
